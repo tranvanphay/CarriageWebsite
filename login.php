@@ -13,7 +13,7 @@
 			</header>
 			<div class="loginForm">
 				<img id="profile" class="profile" src="img/profile.png" alt="Profile Picture">
-				<form method="POST" action="#">
+				<form method="POST" action="php/login.php">
 					<input id="username" class="username" type="text" name="username" value="Username" autocomplete="off"><br>
 					<input id="password" class="password" type="password" name="password" value="Password" autocomplete="off"><br>
 
