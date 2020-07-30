@@ -20,12 +20,12 @@ if ($conn->connect_error) {
         session_start();
         $_SESSION['loggedin'] = true;
         $_SESSION['username'] = $username;
-       echo "<script> window.location.assign('../adminManagement.php'); </script>";
+       echo "<script> window.location.assign('../admin/adminManagement.php'); </script>";
     } else {
     echo '<script language="javascript">';
     echo 'alert("Login error!!!")';
     echo '</script>';
-        echo "<script> window.location.assign('../login.php'); </script>";
+        echo "<script> window.location.assign('../admin/login.php'); </script>";
 
     }
     $conn->close();

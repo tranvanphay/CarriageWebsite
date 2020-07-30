@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
 		<title>MyPage Login</title>
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
 	</head>
 	<body>
 		<div class="container">
@@ -12,8 +12,8 @@
 				<h1>MyPage</h1>
 			</header>
 			<div class="loginForm">
-				<img id="profile" class="profile" src="img/profile.png" alt="Profile Picture">
-				<form method="POST" action="php/login.php">
+				<img id="profile" class="profile" src="../img/profile.png" alt="Profile Picture">
+				<form method="POST" action="../php/login.php">
 					<input id="username" class="username" type="text" name="username" value="Username" autocomplete="off"><br>
 					<input id="password" class="password" type="password" name="password" value="Password" autocomplete="off"><br>
 
@@ -25,6 +25,6 @@
 			</div>
 
 		</div>
-		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="../js/app.js"></script>
 	</body>
 </html>
