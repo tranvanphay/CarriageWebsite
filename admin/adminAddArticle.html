@@ -8,7 +8,27 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="../css/admin/style.css">
+		<link rel="stylesheet" href="css/style.css">
+
+      <!-- Main CSS-->
+      <link href="css/formAddArticle.css" rel="stylesheet" media="all">
+
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+      <link href="wysiwyg/css/froala_editor.min.css" rel="stylesheet" type="text/css">
+      <link href="wysiwyg/css/froala_style.min.css" rel="stylesheet" type="text/css">
+
+      <link href="wysiwyg/css/themes/dark.css" rel="stylesheet" type="text/css">
+
+      <script src="jquery.js"></script>
+      <script>
+          $(function(){
+              $("#includedContent").load("two_editors.html");
+          });
+      </script>
   </head>
   <body>
 
@@ -21,7 +41,7 @@
 	  		<div class="img bg-wrap text-center py-4" style="background-image: url(../img/bg_1.jpg);">
 	  			<div class="user-logo">
 	  				<div class="img" style="background-image: url(../img/logo.jpg);"></div>
-	  				<h3>Thêm bài viết</h3>
+	  				<h3>Tấn Thành</h3>
 	  			</div>
 	  		</div>
                 <ul class="list-unstyled components mb-5">
@@ -29,7 +49,7 @@
                         <a href="adminHomePage.html"><span class="fa fa-home mr-3"></span> Trang chủ</a>
                     </li>
                     <li>
-                        <a href="adminArticleManagement.html"><span class="fa fa-grou mr-3"></span> Quản lý bài viết</a>
+                        <a href="adminArticleManagement.html"><span class="fa fa-group mr-3"></span> Quản lý bài viết</a>
                     </li>
                     <li class="active">
                         <a href="#"><span class="fa fa-plus mr-3"></span> Thêm bài viết</a>
@@ -48,10 +68,59 @@
     	</nav>
 
         <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5 pt-5">
-        <h2 class="mb-4">Thêm bài viết</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div id="content" class="p-4 p-md-5 pt-5" style="margin-left: 20px">
+                  <div class="card card-6">
+                      <div class="card-heading">
+                          <h2 class="title" style="margin: 20px">Thêm bài viết</h2>
+                      </div>
+                      <div class="card-body">
+                          <form method="POST">
+                              <div class="form-row">
+                                  <div class="name">Tiêu đề</div>
+                                  <div class="value">
+                                      <input class="input--style-6" type="text" name="full_name" placeholder="Tiêu đề">
+                                  </div>
+                              </div>
+
+
+                              <div class="form-row">
+                                  <div class="name">Nội dung</div>
+                                  <div class="value">
+                                      <div class="input-group">
+                                          <section id="editor">
+                                              <div id='edit-i' style="margin-top: 30px;">
+                                              </div>
+                                          </section>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                              </div>
+                              <div class="form-row">
+                                  <div class="name">Chọn hình ảnh</div>
+                                  <div class="value">
+                                      <div class="input-group js-input-file">
+                                          <input class="input-file" type="file" name="file_cv" id="file">
+                                          <label class="label--file" for="file">Chọn file</label>
+                                          <span class="input-file__info">Chọn file</span>
+                                      </div>
+                                      <div class="label--desc">Upload your CV/Resume or any other relevant file. Max file size 50 MB</div>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="card-footer">
+                          <button class="btnSaveArticle btn--radius-2 btn--blue-2" type="submit">Lưu</button>
+                      </div>
+              </div>
+
+          <!-- Jquery JS-->
+          <script src="vendor/jquery/jquery.min.js"></script>
+
+
+          <!-- Main JS-->
+          <script src="js/global.js"></script>
+
       </div>
 		</div>
 
@@ -59,5 +128,25 @@
     <script src="../js/popper.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/main.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="wysiwyg/js/froala_editor.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="../js/froala_editor_ie8.min.js"></script>
+        <![endif]-->
+        <script src="wysiwyg/js/plugins/tables.min.js"></script>
+        <script src="wysiwyg/js/plugins/lists.min.js"></script>
+        <script src="wysiwyg/js/plugins/colors.min.js"></script>
+        <script src="wysiwyg/js/plugins/media_manager.min.js"></script>
+        <script src="wysiwyg/js/plugins/font_family.min.js"></script>
+        <script src="wysiwyg/js/plugins/font_size.min.js"></script>
+        <script src="wysiwyg/js/plugins/block_styles.min.js"></script>
+        <script src="wysiwyg/js/plugins/video.min.js"></script>
+
+        <script>
+            $(function(){
+                $('#edit').editable({inlineMode: false})
+                $('#edit-i').editable({inlineMode: false, theme: 'dark'})
+            });
+        </script>
   </body>
 </html>

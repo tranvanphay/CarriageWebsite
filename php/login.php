@@ -25,7 +25,7 @@ if ($conn->connect_error) {
     echo '<script language="javascript">';
     echo 'alert("Login error!!!")';
     echo '</script>';
-        echo "<script> window.location.assign('../admin/login.php'); </script>";
+        echo "<script> window.location.assign('../admin/index.php'); </script>";
 
     }
     $conn->close();
