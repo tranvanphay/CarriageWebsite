@@ -1771,7 +1771,7 @@ padding-top: 12px;
 .hotline-phone-ring-wrap {
 	position: fixed;
 	bottom: 0;
-	left: 0;
+	/*left: 0;*/
 	z-index: 999999;
 }
 .hotline-phone-ring {
@@ -1942,6 +1942,11 @@ padding-top: 12px;
 @media (max-width: 768px) {
 	.hotline-bar {
 		display: none;
+	}
+	.hotline-phone-ring-wrap {
+		left: unset;
+		right: 0;
+		float: right;
 	}
 }
 
