@@ -1774,6 +1774,24 @@ padding-top: 12px;
 	/*left: 0;*/
 	z-index: 999999;
 }
+
+.social-ring-wrap {
+	position: fixed;
+	bottom: 0;
+	/*left: 0;*/
+	z-index: 999999;
+}
+
+.phone-ring-wrap {
+	position: fixed;
+	bottom: 0;
+	/*left: 0;*/
+	z-index: 999999;
+}
+
+
+
+
 .hotline-phone-ring {
 	position: relative;
 	visibility: visible;
@@ -1789,6 +1807,17 @@ padding-top: 12px;
 	bottom: 0;
 	display: block;
 }
+
+.phone-ring {
+	background-color: transparent;
+	width: 110px;
+	height: 110px;
+	cursor: pointer;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	transition: visibility .5s;
+}
+
 .hotline-phone-ring-circle {
 	width: 85px;
 	height: 85px;
@@ -1806,6 +1835,42 @@ padding-top: 12px;
 	transform-origin: 50% 50%;
 	opacity: 0.5;
 }
+
+
+
+.zalo-ring-circle {
+	width: 85px;
+	height: 85px;
+	top: 10px;
+	left: 10px;
+	position: absolute;
+	background-color: transparent;
+	border-radius: 100%;
+	border: 2px solid #0595e5;
+	-webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+	animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+	transition: all .5s;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	opacity: 0.5;
+}
+
+.phone-ring-circle {
+	width: 85px;
+	height: 85px;
+	background-color: transparent;
+	border-radius: 100%;
+	border: 2px solid #0595e5;
+	-webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+	animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+	transition: all .5s;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	opacity: 0.5;
+}
+
 .hotline-phone-ring-circle-fill {
 	width: 55px;
 	height: 55px;
@@ -1822,6 +1887,36 @@ padding-top: 12px;
 	-ms-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
 }
+
+.zalo-ring-circle-fill {
+	width: 55px;
+	height: 55px;
+	top: 25px;
+	left: 25px;
+	position: absolute;
+	background-color: #0595e5;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	-webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	transition: all .5s;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.phone-ring-circle-fill {
+	background-color: #0595e5;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	-webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	transition: all .5s;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
 .hotline-phone-ring-img-circle {
 	background-color: #e9931b;
 	width: 33px;
@@ -1844,6 +1939,45 @@ padding-top: 12px;
 	align-items: center;
 	justify-content: center;
 }
+
+.zalo-ring-img-circle {
+	background-color: #0595e5;
+	width: 33px;
+	height: 33px;
+	top: 37px;
+	left: 37px;
+	position: absolute;
+	background-size: 20px;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	-webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+	animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.phone-ring-img-circle {
+	width: 53px;
+	height: 53px;
+	top: 57px;
+	left: 57px;
+	background-size: 10px;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	-webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+	animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
 .hotline-phone-ring-img-circle .pps-btn-img {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -1873,6 +2007,27 @@ padding-top: 12px;
 	left: 33px;
 	bottom: 37px;
 }
+
+.zalo-bar {
+	position: absolute;
+	background: #ffc30d;
+	height: 40px;
+	width: 180px;
+	line-height: 40px;
+	border-radius: 3px;
+	padding: 0 10px;
+	background-size: 100%;
+	cursor: pointer;
+	transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	z-index: 9;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 50px !important;
+	/* width: 175px !important; */
+	left: 33px;
+	bottom: 37px;
+}
+
 .hotline-bar > a {
 	color: #fff;
 	text-decoration: none;
@@ -1888,6 +2043,12 @@ padding-top: 12px;
 .hotline-bar > a:active {
 	color: #fff;
 }
+
+.zalo-bar > a:hover,
+.zalo-bar > a:active {
+	color: #fff;
+}
+
 @-webkit-keyframes phonering-alo-circle-anim {
 	0% {
 		-webkit-transform: rotate(0) scale(0.5) skew(1deg);
@@ -1939,20 +2100,77 @@ padding-top: 12px;
 		-webkit-transform: rotate(0) scale(1) skew(1deg);
 	}
 }
-@media (max-width: 768px) {
-	.hotline-bar {
-		display: none;
-	}
-	.hotline-phone-ring-wrap {
-		left: unset;
-		right: 0;
-		float: right;
-	}
-}
 
 .favor{
 	height: 70px;
 }
+.sticky-phone-call {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #e9931b;
+	color: white;
+	z-index: 10000;
+}
+
+.hotline-text {
+	font-size: 10pt;
+}
+
+.column {
+	padding: 10px;
+	float: left;
+	width: 50%;
+	border: 1px solid #222222;
+	height: 50px; /* Should be removed. Only for demonstration */
+}
+
+.column1 {
+	text-align: right;
+	float: left;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 25%;
+	height: 50px; /* Should be removed. Only for demonstration */
+}
+
+.column2 {
+	text-align: center;
+	float: right;
+	width: 75%;
+	height: 50px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowCus:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.hotlineShake {
+	-webkit-animation: rotation 0.7s infinite linear;
+}
+
+.zalo-margin{
+	margin-bottom: 70px;
+}
+
+.mess-margin{
+	margin-bottom: 140px;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(90deg);
+	}
+	to {
+		-webkit-transform: rotate(00deg);
+	}
+}
+
 @media (max-width: 768px){
 	.favor{
 		height: 50px;
@@ -1961,7 +2179,35 @@ padding-top: 12px;
 	.container{
 		margin: -20px 0px -10px 0px;
 	}
+	.hotline-text{
+		font-size: 12pt;
+	}
+
+	.hotline-bar {
+		display: none;
+	}
+
+	.zalo-bar {
+		display: none;
+	}
+	.hotline-phone-ring-wrap {
+		display: none;
+	}
+
+	.zalo-margin{
+		margin-bottom: 30px;
+	}
+
+	.mess-margin{
+		margin-bottom: 100px;
+	}
 }
 
+
+@media (min-width: 768px) {
+	.sticky-phone-call{
+		display: none;
+	}
+}
 
 

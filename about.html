@@ -327,55 +327,87 @@
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-	window.fbAsyncInit = function() {
-		FB.init({
-			xfbml            : true,
-			version          : 'v7.0'
-		});
-	};
-
-	(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
-		js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your Chat Plugin code -->
-<div>
-	<div class="fb-customerchat"
-		 attribution=setup_tool
-		 page_id="121373502725406"
-		 logged_in_greeting="Chào bạn! Vận tải Tấn Thành có thể giúp gì được cho bạn?"
-		 logged_out_greeting="Chào bạn! Vận tải Tấn Thành có thể giúp gì được cho bạn?">
-	</div>
-	<div style="margin-bottom: 80px; margin-right: 20px"
-		 class="zalo-chat-widget" data-oaid="2381213222740771578" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
-</div>
-
-<div class="fb-customerchat">
-	<div class="hotline-phone-ring-wrap">
-		<div class="hotline-phone-ring">
-			<div class="hotline-phone-ring-circle"></div>
-			<div class="hotline-phone-ring-circle-fill"></div>
-			<div class="hotline-phone-ring-img-circle">
-				<a href="tel:0987654321" class="pps-btn-img">
-					<img src="img/icon_call.png" alt="Gọi điện thoại" width="50">
-				</a>
-			</div>
-		</div>
-		<div class="hotline-bar">
-			<a href="tel:0779444123">
-				<span class="text-hotline">0779444123</span>
+<div class="hotline-phone-ring-wrap">
+	<div class="hotline-phone-ring">
+		<div class="hotline-phone-ring-circle"></div>
+		<div class="hotline-phone-ring-circle-fill"></div>
+		<div class="hotline-phone-ring-img-circle">
+			<a href="tel:0779444123" class="pps-btn-img">
+				<img src="img/icon_call.png" alt="Gọi điện thoại" width="50">
 			</a>
 		</div>
 	</div>
+	<div class="hotline-bar">
+		<a href="tel:0779444123">
+			<span class="text-hotline">0779444123</span>
+		</a>
+	</div>
 </div>
-<!--Zalo chat-->
+
+<div class="social-ring-wrap" style="margin-bottom: 70px">
+	<div class="hotline-phone-ring">
+		<div class="zalo-ring-circle"></div>
+		<div class="zalo-ring-circle-fill"></div>
+		<div class="zalo-ring-img-circle">
+			<a href="http://zaloapp.com/qr/p/1pcmppi8bhu2d" class="pps-btn-img">
+				<img src="img/icon-zalo.png" alt="Gọi zalo" width="50">
+			</a>
+		</div>
+	</div>
+	<!--		<div class="zalo-bar">-->
+	<!--			<a href="http://zaloapp.com/qr/p/1pcmppi8bhu2d">-->
+	<!--				<span class="text-hotline">0779444123</span>-->
+	<!--			</a>-->
+	<!--		</div>-->
+</div>
+
+<div class="social-ring-wrap" style="margin-bottom: 140px">
+	<div class="hotline-phone-ring">
+		<div class="zalo-ring-circle"></div>
+		<div class="zalo-ring-circle-fill"></div>
+		<div class="zalo-ring-img-circle">
+			<a href="http://m.me/121373502725406" class="pps-btn-img">
+				<img src="img/icon-messenger.png" alt="Messenger" width="50">
+			</a>
+		</div>
+	</div>
+	<!--		<div class="zalo-bar">-->
+	<!--			<a href="http://zaloapp.com/qr/p/1pcmppi8bhu2d">-->
+	<!--				<span class="text-hotline">0779444123</span>-->
+	<!--			</a>-->
+	<!--		</div>-->
+</div>
+<!--sticky footer-->
+<div class="sticky-phone-call">
+	<div class="rowCus">
+		<a href="tel:0779444123" class="pps-btn-img">
+			<div class="column" >
+				<div class="column1">
+					<a href="tel:0779444123" class="pps-btn-img">
+						<img class="hotlineShake" src="img/icon_call.png" alt="Gọi điện thoại" width="30" height="30" style="margin-right: 10px">
+					</a>
+				</div>
+				<div class="column2 hotline-text">
+					<p style="margin-left: 10px">(+84) 077-944-4123</p>
+				</div>
+			</div>
+		</a>
+
+		<a href="tel:0779444123" class="pps-btn-img">
+			<div class="column" >
+				<div class="column1">
+					<a href="tel:0779444123" class="pps-btn-img">
+						<img class="hotlineShake" src="img/icon_call.png" alt="Gọi điện thoại" width="30" height="30" style="margin-right: 10px">
+					</a>
+				</div>
+				<div class="column2 hotline-text" >
+					<p style="margin-left: 10px">(+84) 077-944-4123</p>
+				</div>
+			</div>
+		</a>
+
+	</div>
+</div>
 
 <script src="https://sp.zalo.me/plugins/sdk.js"></script>
 <!-- javascript
