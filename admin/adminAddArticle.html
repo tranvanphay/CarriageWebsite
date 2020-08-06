@@ -5,30 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css">
-
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
       <!-- Main CSS-->
       <link href="css/formAddArticle.css" rel="stylesheet" media="all">
-
-      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
       <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-      <link href="wysiwyg/css/froala_editor.min.css" rel="stylesheet" type="text/css">
-      <link href="wysiwyg/css/froala_style.min.css" rel="stylesheet" type="text/css">
+<!--      <script src="vendor/jquery/jquery.js"></script>-->
+      <link type="text/css" href="CKEditor/sample/css/sample.css" rel="stylesheet" media="screen" />
 
-      <link href="wysiwyg/css/themes/dark.css" rel="stylesheet" type="text/css">
 
-      <script src="jquery.js"></script>
-      <script>
-          $(function(){
-              $("#includedContent").load("two_editors.html");
-          });
-      </script>
   </head>
   <body>
 
@@ -69,84 +54,52 @@
 
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5 pt-5" style="margin-left: 20px">
-                  <div class="card card-6">
-                      <div class="card-heading">
-                          <h2 class="title" style="margin: 20px">Thêm bài viết</h2>
-                      </div>
-                      <div class="card-body">
-                          <form method="POST">
-                              <div class="form-row">
-                                  <div class="name">Tiêu đề</div>
-                                  <div class="value">
-                                      <input class="input--style-6" type="text" name="full_name" placeholder="Tiêu đề">
-                                  </div>
-                              </div>
-
-
-                              <div class="form-row">
-                                  <div class="name">Nội dung</div>
-                                  <div class="value">
-                                      <div class="input-group">
-                                          <section id="editor">
-                                              <div id='edit-i' style="margin-top: 30px;">
-                                              </div>
-                                          </section>
-                                          </div>
-                                      </div>
-                                  </div>
-
-                              </div>
-                              <div class="form-row">
-                                  <div class="name">Chọn hình ảnh</div>
-                                  <div class="value">
-                                      <div class="input-group js-input-file">
-                                          <input class="input-file" type="file" name="file_cv" id="file">
-                                          <label class="label--file" for="file">Chọn file</label>
-                                          <span class="input-file__info">Chọn file</span>
-                                      </div>
-                                      <div class="label--desc">Upload your CV/Resume or any other relevant file. Max file size 50 MB</div>
-                                  </div>
-                              </div>
-                          </form>
-                      </div>
-                      <div class="card-footer">
-                          <button class="btnSaveArticle btn--radius-2 btn--blue-2" type="submit">Lưu</button>
-                      </div>
-              </div>
 
           <!-- Jquery JS-->
-          <script src="vendor/jquery/jquery.min.js"></script>
+          <main>
+              <div class="message">
+                  <div class="centered">
+<!--                      <h1>Chào mừng bạn!</h1>-->
+<!--                      <p>Đây là nơi bạn viết nội dung cho website của bạn, bạn có thể sử dụng nó </p>-->
+                  </div>
+              </div>
+              <div class="centered">
+                  <div id="editor">
+
+                  </div>
+                  <button type="button" class="btn btn-primary btn-lg btn-block">Lưu bài viết</button>
 
 
-          <!-- Main JS-->
-          <script src="js/global.js"></script>
+              </div>
+              <footer>
+                  <div>
+                      <p>Dịch vụ Vận tải Tấn Thành</p>
+                      <p>Copyright © 2020 – Design by KhanhTD. All rights reserved.</p>
+                  </div>
+              </footer>
+          </main>
+
+          <script src="CKEditor/ckeditor.js"></script>
+
+          <script>
+              ClassicEditor
+                  .create( document.querySelector( '#editor' ), {
+                      // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+                  } )
+                  .then( editor => {
+                      window.editor = editor;
+                  } )
+                  .catch( err => {
+                      console.error( err.stack );
+                  } );
+          </script>
 
       </div>
 		</div>
 
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/popper.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="wysiwyg/js/froala_editor.min.js"></script>
-        <!--[if lt IE 9]>
-        <script src="../js/froala_editor_ie8.min.js"></script>
-        <![endif]-->
-        <script src="wysiwyg/js/plugins/tables.min.js"></script>
-        <script src="wysiwyg/js/plugins/lists.min.js"></script>
-        <script src="wysiwyg/js/plugins/colors.min.js"></script>
-        <script src="wysiwyg/js/plugins/media_manager.min.js"></script>
-        <script src="wysiwyg/js/plugins/font_family.min.js"></script>
-        <script src="wysiwyg/js/plugins/font_size.min.js"></script>
-        <script src="wysiwyg/js/plugins/block_styles.min.js"></script>
-        <script src="wysiwyg/js/plugins/video.min.js"></script>
-
-        <script>
-            $(function(){
-                $('#edit').editable({inlineMode: false})
-                $('#edit-i').editable({inlineMode: false, theme: 'dark'})
-            });
-        </script>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/popper.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/main.js"></script>
   </body>
 </html>
