@@ -9,9 +9,14 @@
 <!-- css -->
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
+	<link href="css/autoScroll/animate.min.css" rel="stylesheet">
+	<link href="css/autoScroll/prettyphoto.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="js/autoScroll/html5shiv.js"></script>
+	<script src="js/autoScroll/respond.min.js"></script>
+	<![endif]-->
  
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -32,7 +37,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-					<a href="index.html"><img src="img/logo_vehicle.png" alt="logo" height="70px"/></a>
+					<a href="index.html"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
 					<ul class="nav navbar-nav">
@@ -40,7 +45,7 @@
 						<li class="active"><a href="about.html">Giới thiệu</a></li>
 						<li><a href="services.html">Dịch vụ</a></li>
 						<li><a href="news.html">Tin tức</a></li>
-						<li><a href="contact.html">Liên hệ</a></li>
+						<li><a class="scroll" style="color: white !important;" href="#footer">Liên hệ</a></li>
 						<!--                        <li><a href="contact.html">Contact</a></li>-->
 					</ul>
                 </div>
@@ -296,7 +301,7 @@
 									
 				</div>
 	</section>
-	<footer>
+	<footer id="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
@@ -472,5 +477,13 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+
+<script src="js/autoScroll/mousescroll.js"></script>
+<script src="js/autoScroll/smoothscroll.js"></script>
+<script src="js/autoScroll/jquery.prettyphoto.js"></script>
+<script src="js/autoScroll/jquery.isotope.min.js"></script>
+<script src="js/autoScroll/jquery.inview.min.js"></script>
+<script src="js/autoScroll/wow.min.js"></script>
+<script src="js/autoScroll/custom-scripts.js"></script>
 </body>
 </html>
