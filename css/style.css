@@ -2178,6 +2178,44 @@ padding-top: 12px;
 .mess-margin{
 	margin-bottom: 140px;
 }
+.mapSize{
+	width: 600px;
+	height: 200px;
+	display: block;
+}
+
+.iconRow:after{
+	content: "";
+	display: table;
+	height: 30px;
+}
+
+.icon{
+	width: 30px;
+	height: 30px;
+}
+
+.iconCol{
+	float: left;
+	width: auto;
+	height: auto; /* Should be removed. Only for demonstration */
+}
+
+.iconDesCol{
+	line-height: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+	margin-left: 10px;
+	vertical-align: middle;
+	/* Should be removed. Only for demonstration */
+}
+
+.nameWeb{
+	color: #E9931B !important;
+}
 
 @-webkit-keyframes rotation {
 	from {
@@ -2220,6 +2258,11 @@ padding-top: 12px;
 	}
 	p{
 		font-size: 11pt;
+	}
+	.mapSize{
+		height: 300px;
+		width: auto;
+		alignment: center;
 	}
 }
 
