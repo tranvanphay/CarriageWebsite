@@ -13,13 +13,11 @@
 <!--    <link type="text/css" href="CKEditor/sample/css/sample.css" rel="stylesheet" media="screen"/>-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+
     <script src="CKEditor/ckeditor.js"></script>
     <script src="CKEditor/js/sample.js"></script>
     <link rel="stylesheet" href="CKEditor/css/samples.css">
     <link rel="stylesheet" href="CKEditor/toolbarconfigurator/lib/codemirror/neo.css">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description"
-          content="Try the latest sample of CKEditor 4 and learn more about customizing your WYSIWYG editor with endless possibilities.">
 
 
 </head>
@@ -66,7 +64,9 @@
         <main>
             <div class="adjoined-top">
                 <div class="grid-container">
-                    <div class="content grid-width-100"></div>
+                    <div class="content grid-width-100">
+
+                    </div>
                 </div>
             </div>
             <div class="adjoined-bottom">
@@ -76,9 +76,6 @@
 
                         </div>
                     </div>
-                </div>
-                <div style="margin: 20px; margin-left: 20%;margin-right: 20%">
-                    <button type="button" class="btn btn-primary btn-block">Lưu bài viết</button>
                 </div>
             </div>
         </main>
@@ -93,7 +90,10 @@
             </div>
         </footer>
         <script>
-            CKEDITOR.replace('editor');
+            CKEDITOR.replace('editor',{
+                filebrowserUploadUrl:"CKEditor/ck_upload.php",
+                filebrowserUploadMethod:"form"
+            });
         </script>
 
 

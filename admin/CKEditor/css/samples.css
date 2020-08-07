@@ -1,5 +1,5 @@
 /**
- * @license Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+ * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 @media (max-width: 900px) {
@@ -1007,7 +1007,7 @@ footer > div {
   border-top: 1px solid #D9D9D9;
 }
 .adjoined-top {
-  background-color: #3f84fc;
+  background-color: #2f89fc;
   color: #fff;
 }
 .adjoined-top .content h1,
@@ -1048,7 +1048,7 @@ footer > div {
 .adjoined-bottom:before {
   z-index: -1;
   content: '';
-  background: #3f84fc;
+  background: #2f89fc;
   position: absolute;
   top: 0;
   left: 0;
