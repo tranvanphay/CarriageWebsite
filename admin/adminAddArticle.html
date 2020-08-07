@@ -1,105 +1,108 @@
 <!doctype html>
 <html lang="en">
-  <head>
-  	<title>Carriage Admin</title>
+<head>
+    <title>Carriage Admin</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Main CSS-->
+    <link href="css/formAddArticle.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--      <script src="vendor/jquery/jquery.js"></script>-->
+<!--    <link type="text/css" href="CKEditor/sample/css/sample.css" rel="stylesheet" media="screen"/>-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="CKEditor/ckeditor.js"></script>
+    <script src="CKEditor/js/sample.js"></script>
+    <link rel="stylesheet" href="CKEditor/css/samples.css">
+    <link rel="stylesheet" href="CKEditor/toolbarconfigurator/lib/codemirror/neo.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+          content="Try the latest sample of CKEditor 4 and learn more about customizing your WYSIWYG editor with endless possibilities.">
 
-      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Main CSS-->
-      <link href="css/formAddArticle.css" rel="stylesheet" media="all">
-      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-<!--      <script src="vendor/jquery/jquery.js"></script>-->
-      <link type="text/css" href="CKEditor/sample/css/sample.css" rel="stylesheet" media="screen" />
 
+</head>
+<body>
 
-  </head>
-  <body>
-
-		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar">
-				<div class="custom-menu">
-					<button type="button" id="sidebarCollapse" class="btn btn-primary">
-	        </button>
+<div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+        <div class="custom-menu">
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            </button>
         </div>
-	  		<div class="img bg-wrap text-center py-4" style="background-image: url(../img/bg_1.jpg);">
-	  			<div class="user-logo">
-	  				<div class="img" style="background-image: url(../img/logo.jpg);"></div>
-	  				<h3>Tấn Thành</h3>
-	  			</div>
-	  		</div>
-                <ul class="list-unstyled components mb-5">
-                    <li>
-                        <a href="adminHomePage.html"><span class="fa fa-home mr-3"></span> Trang chủ</a>
-                    </li>
-                    <li>
-                        <a href="adminArticleManagement.html"><span class="fa fa-group mr-3"></span> Quản lý bài viết</a>
-                    </li>
-                    <li class="active">
-                        <a href="#"><span class="fa fa-plus mr-3"></span> Thêm bài viết</a>
-                    </li>
-                    <li>
-                        <a href="adminSettings.html"><span class="fa fa-cog mr-3"></span> Cài đặt</a>
-                    </li>
-                    <li>
-                        <a href="adminHelp.html"><span class="fa fa-support mr-3"></span> Hỗ trợ</a>
-                    </li>
-                    <li>
-                        <a href="#"><span class="fa fa-sign-out mr-3"></span> Đăng xuất</a>
-                    </li>
-                </ul>
+        <div class="img bg-wrap text-center py-4" style="background-image: url(../img/bg_1.jpg);">
+            <div class="user-logo">
+                <div class="img" style="background-image: url(../img/logo.jpg);"></div>
+                <h3>Tấn Thành</h3>
+            </div>
+        </div>
+        <ul class="list-unstyled components mb-5">
+            <li>
+                <a href="adminHomePage.html"><span class="fa fa-home mr-3"></span> Trang chủ</a>
+            </li>
+            <li>
+                <a href="adminArticleManagement.html"><span class="fa fa-group mr-3"></span> Quản lý bài viết</a>
+            </li>
+            <li class="active">
+                <a href="#"><span class="fa fa-plus mr-3"></span> Thêm bài viết</a>
+            </li>
+            <li>
+                <a href="adminSettings.html"><span class="fa fa-cog mr-3"></span> Cài đặt</a>
+            </li>
+            <li>
+                <a href="adminHelp.html"><span class="fa fa-support mr-3"></span> Hỗ trợ</a>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-sign-out mr-3"></span> Đăng xuất</a>
+            </li>
+        </ul>
 
-    	</nav>
+    </nav>
 
-        <!-- Page Content  -->
-      <div id="content" class="p-4 p-md-5 pt-5" style="margin-left: 20px">
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5 pt-5" style="margin-left: 20px">
 
-          <!-- Jquery JS-->
-          <main>
-              <div class="message">
-                  <div class="centered">
-<!--                      <h1>Chào mừng bạn!</h1>-->
-<!--                      <p>Đây là nơi bạn viết nội dung cho website của bạn, bạn có thể sử dụng nó </p>-->
-                  </div>
-              </div>
-              <div class="centered">
-                  <div id="editor">
+        <main>
+            <div class="adjoined-top">
+                <div class="grid-container">
+                    <div class="content grid-width-100"></div>
+                </div>
+            </div>
+            <div class="adjoined-bottom">
+                <div class="grid-container">
+                    <div class="grid-width-100">
+                        <div id="editor">
 
-                  </div>
-                  <button type="button" class="btn btn-primary btn-lg btn-block">Lưu bài viết</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin: 20px; margin-left: 20%;margin-right: 20%">
+                    <button type="button" class="btn btn-primary btn-block">Lưu bài viết</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer-a grid-container">
+            <div class="grid-container">
+                <p class="grid-width-100">
+                    Dịch vụ Vận tải Tấn Thành
+                    <br>
+                    Copyright © 2020 – Design by KhanhTD. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <script>
+            CKEDITOR.replace('editor');
+        </script>
 
 
-              </div>
-              <footer>
-                  <div>
-                      <p>Dịch vụ Vận tải Tấn Thành</p>
-                      <p>Copyright © 2020 – Design by KhanhTD. All rights reserved.</p>
-                  </div>
-              </footer>
-          </main>
+    </div>
+</div>
 
-          <script src="CKEditor/ckeditor.js"></script>
-
-          <script>
-              ClassicEditor
-                  .create( document.querySelector( '#editor' ), {
-                      // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
-                  } )
-                  .then( editor => {
-                      window.editor = editor;
-                  } )
-                  .catch( err => {
-                      console.error( err.stack );
-                  } );
-          </script>
-
-      </div>
-		</div>
-
-        <script src="../js/jquery.min.js"></script>
-        <script src="../js/popper.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/main.js"></script>
-  </body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/popper.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
 </html>
