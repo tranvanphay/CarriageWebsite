@@ -72,12 +72,17 @@
             <div class="adjoined-bottom">
                 <div class="grid-container">
                     <div class="grid-width-100">
-                        <div id="editor">
-
-                        </div>
+                        <form method="post" action="php/submit.php">
+                            <textarea name="editor" id="editor" rows="10" cols="80">
+                            This is my textarea to be replaced with HTML editor.
+                            </textarea>
+                            <input type="submit" name="submit" value="SUBMIT">
+                        </form>
                     </div>
+
                 </div>
             </div>
+
         </main>
 
         <footer class="footer-a grid-container">
@@ -95,6 +100,11 @@
                 filebrowserUploadMethod:"form"
             });
         </script>
+        <script>
+            tinymce.init({
+                selector: '#editor'
+            });
+        </script>
 
 
     </div>
@@ -104,5 +114,6 @@
 <script src="../js/popper.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/main.js"></script>
+<script src="CKEditor/js/tinymce.min.js"></script>
 </body>
 </html>

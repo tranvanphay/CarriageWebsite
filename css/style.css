@@ -2425,6 +2425,24 @@ article img.pull-right, article .align-right {
     }
 }
 
+.tabContainer {
+    text-align: center;
+}
+
+.tabContainer ul {
+    display: inline-block;
+
+    /* One most likely needs to realign flow content */
+    text-align: initial;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus{
+    color:#e9931b
+}
+.nav-tabs>li>a {
+    color:black;
+    font-weight: bold;
+}
 
 @media (min-width: 768px) {
     .sticky-phone-call {
