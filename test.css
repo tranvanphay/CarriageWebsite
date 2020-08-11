@@ -1,8 +1,18 @@
 body{
-    margin-left: 25%;
-    margin-right: 25%;
     border: 1px solid red;
     max-width: 800px;
+    color: #222;
+    font: 400 15px arial;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: none;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 * {
     box-sizing: border-box;
@@ -11,17 +21,41 @@ body{
 /* Create two equal columns that floats next to each other */
 .leftCol {
     float: left;
-    width: 250px;
+    width: 30%;
+    height: 150px;
     padding: 10px;
     text-align: center;
     object-fit: contain;
-    overflow: hidden; height: 100px
+    overflow: hidden;
 }
 .rightCol{
     float: left;
     width: 70%;
     padding: 10px;
 }
+/*.rowRight{*/
+/*    height: 20px;*/
+/*}*/
+/*.rowRight:after {*/
+/*    content: "";*/
+/*    display: table;*/
+/*    clear: both;*/
+/*}*/
+
+.bottomLeftCol{
+    line-height: 10px;
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+.bottomRightCol{
+    float: left;
+    display: block;
+    width: 30%;
+    line-height: 10px;
+}
+
 
 /* Clear floats after the columns */
 .row{
@@ -31,4 +65,7 @@ body{
     content: "";
     display: table;
     clear: both;
+}
+.all{
+
 }

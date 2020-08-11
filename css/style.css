@@ -2444,6 +2444,9 @@ article img.pull-right, article .align-right {
     font-weight: bold;
 }
 
+.card-comments img {
+    width: 4rem; }
+
 @media (min-width: 768px) {
     .sticky-phone-call {
         display: none;
