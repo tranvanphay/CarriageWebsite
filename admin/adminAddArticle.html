@@ -13,7 +13,9 @@
 <!--    <link type="text/css" href="CKEditor/sample/css/sample.css" rel="stylesheet" media="screen"/>-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
     <script src="CKEditor/ckeditor.js"></script>
     <script src="CKEditor/js/sample.js"></script>
     <link rel="stylesheet" href="CKEditor/css/samples.css">
@@ -71,12 +73,22 @@
             </div>
             <div class="adjoined-bottom">
                 <div class="grid-container">
+
                     <div class="grid-width-100">
                         <form method="post" action="php/submit.php">
+                            <label style="color: black;font-weight: bold">Tiêu đề:</label>
+                            <input type="text" style="margin: 0px 0px 10px 0px" name="title" class="form-control">
+                                <label for="sel1" style="color: black;font-weight: bold">Loại bài viết:</label>
+                                <select name="type" style="margin: 0px 0px 10px 0px" class="form-control" id="sel1">
+                                    <option>Chuyển nhà trọn gói</option>
+                                    <option>Chuyển văn phòng trọn gói</option>
+                                    <option>Dịch vụ chuyển kho xưởng</option>
+                                    <option>Dịch vụ cho thuê xe tải</option>
+                                </select>
+                            <label style="color: black;font-weight: bold">Nội dung:</label>
                             <textarea name="editor" id="editor" rows="10" cols="80">
-                            This is my textarea to be replaced with HTML editor.
                             </textarea>
-                            <input type="submit" name="submit" value="SUBMIT">
+                            <input type="submit" class="btn btn-info" style="background-color: #007bff;margin: 10px 0px 0px 0px" name="submit" value="Đăng bài">
                         </form>
                     </div>
 

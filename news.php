@@ -1,3 +1,8 @@
+<?php
+//include_once("admin/php/dbConfig.php");
+//$query = "Select * from editor";
+//$result = mysqli_query($query);
+//?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,13 +51,14 @@
                         <li><a href="index.html">Trang chủ</a></li>
                         <li><a href="about.html">Giới thiệu</a></li>
                         <li><a href="services.html">Dịch vụ</a></li>
-                        <li class="active"><a href="news.html">Tin tức</a></li>
+                        <li class="active"><a href="news.php">Tin tức</a></li>
                         <li><a class="scroll" style="color: white !important;" href="#footer">Liên hệ</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header><!-- end header -->
+
     <section id="inner-headline">
         <div class="container">
             <div class="row">
@@ -87,18 +93,26 @@
                                                  <div class="mask rgba-white-slight"></div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+<!--                                        Start tag-->
+                                        <?php
+                                        $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                                        $table = 'editor';
+                                        $result = $mySQL-> query("SELECT * FROM $table") or die($mySQL->error);
+                                        while ($data = mysqli_fetch_object($result))
+                                        {
+                                            echo /*"<h1>".$data -> title."</h1> <br>";*/
+                                        '<div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
                                             <h3 class="mb-3 font-weight-bold dark-grey-text">
-                                                <strong>Tiêu đề bài viết</strong>
+                                                <strong>'.$data->title.'</strong>
                                             </h3>
                                             <p class="grey-text">Tom tat noi dung bai viet</p>
                                             <img src=""/>
                                             <div class="iconRow" style="height: 20px!important;">
                                                 <div class="iconCol">
-                                                    <img class="icon" src="img/icon/ic_clock.png" style="height: 20px!important;width: 20px!important;">
+                                                    <img class="icon" src="'.$data->miniImage.'" style="height: 20px!important;width: 20px!important;">
                                                 </div>
                                                 <div class="iconDesCol">
-                                                    <p style="font-size: 12px">Ngày đăng: 10/08/2020</p>
+                                                    <p style="font-size: 12px">Ngày đăng:'. $data->created.'</p>
                                                 </div>
                                             </div>
                                             <br>
@@ -107,10 +121,13 @@
                                                 <img class="icon" src="img/icon/ic_eye.png" style="height: 20px!important;width: 20px!important;">
                                             </div>
                                             <div class="iconDesCol">
-                                                <p style="font-size: 12px">Lượt xem: 200</p>
+                                                <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
                                             </div>
                                         </div>
-                                        </div>
+                                        </div>';
+                                        }
+                                        ?>
+<!--                                        End tag-->
                                     </div>
                                     <hr class="mb-5">
                                 </section>
