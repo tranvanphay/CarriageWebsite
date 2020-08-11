@@ -84,24 +84,24 @@
                         <h3>HOME</h3>
                         <main class="mt-5 pt-5">
                             <div class="container">
-                                <section class="pt-4">
+                                <!--                                        Start tag-->
+                                <?php
+                                $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                                $table = 'editor';
+                                $result = $mySQL-> query("SELECT * FROM $table where $table.type='Chuyển nhà trọn gói'") or die($mySQL->error);
+                                while ($data = mysqli_fetch_object($result))
+                                {
+                                    echo
+                                '<section class="pt-4">
                                     <hr class="mb-5">
                                     <div class="row wow fadeIn">
                                         <div class="col-lg-5 col-xl-4 mb-4">
                                             <div class="view overlay rounded z-depth-1">
-                                                <img src="img/service1.jpg" class="img-fluid" alt="">
+                                                <img src="admin/uploads/'.$data->miniImage.'" class="img-fluid" alt="">
                                                  <div class="mask rgba-white-slight"></div>
                                             </div>
                                         </div>
-<!--                                        Start tag-->
-                                        <?php
-                                        $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
-                                        $table = 'editor';
-                                        $result = $mySQL-> query("SELECT * FROM $table") or die($mySQL->error);
-                                        while ($data = mysqli_fetch_object($result))
-                                        {
-                                            echo /*"<h1>".$data -> title."</h1> <br>";*/
-                                        '<div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+                                        <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
                                             <h3 class="mb-3 font-weight-bold dark-grey-text">
                                                 <strong>'.$data->title.'</strong>
                                             </h3>
@@ -109,7 +109,7 @@
                                             <img src=""/>
                                             <div class="iconRow" style="height: 20px!important;">
                                                 <div class="iconCol">
-                                                    <img class="icon" src="'.$data->miniImage.'" style="height: 20px!important;width: 20px!important;">
+                                                    <img class="icon" src="img/icon/ic_clock.png" style="height: 20px!important;width: 20px!important;">
                                                 </div>
                                                 <div class="iconDesCol">
                                                     <p style="font-size: 12px">Ngày đăng:'. $data->created.'</p>
@@ -135,16 +135,172 @@
                         </main>
                     </div>
                     <div id="menu1" class="tab-pane fade">
-                        <h3>Menu 1</h3>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h3>Chuyển văn phòng trọn gói</h3>
+
+                        <main class="mt-5 pt-5">
+                            <div class="container">
+                                <!--                                        Start tag-->
+                                <?php
+                                $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                                $table = 'editor';
+                                $result = $mySQL-> query("SELECT * FROM $table where $table.type='Chuyển văn phòng trọn gói'") or die($mySQL->error);
+                                while ($data = mysqli_fetch_object($result))
+                                {
+                                    echo
+                                        '<section class="pt-4">
+                                    <hr class="mb-5">
+                                    <div class="row wow fadeIn">
+                                        <div class="col-lg-5 col-xl-4 mb-4">
+                                            <div class="view overlay rounded z-depth-1">
+                                                <img src="admin/uploads/'.$data->miniImage.'" class="img-fluid" alt="">
+                                                 <div class="mask rgba-white-slight"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+                                            <h3 class="mb-3 font-weight-bold dark-grey-text">
+                                                <strong>'.$data->title.'</strong>
+                                            </h3>
+                                            <p class="grey-text">Tom tat noi dung bai viet</p>
+                                            <img src=""/>
+                                            <div class="iconRow" style="height: 20px!important;">
+                                                <div class="iconCol">
+                                                    <img class="icon" src="img/icon/ic_clock.png" style="height: 20px!important;width: 20px!important;">
+                                                </div>
+                                                <div class="iconDesCol">
+                                                    <p style="font-size: 12px">Ngày đăng:'. $data->created.'</p>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="iconRow" style="height: 20px!important;">
+                                            <div class="iconCol">
+                                                <img class="icon" src="img/icon/ic_eye.png" style="height: 20px!important;width: 20px!important;">
+                                            </div>
+                                            <div class="iconDesCol">
+                                                <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
+                                            </div>
+                                        </div>
+                                        </div>';
+                                }
+                                ?>
+                                <!--                                        End tag-->
+                            </div>
+                            <hr class="mb-5">
+                            </section>
+</main>
+
+
                     </div>
                     <div id="menu2" class="tab-pane fade">
-                        <h3>Menu 2</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <h3>Dịch vụ chuyển kho xưởng</h3>
+
+                        <main class="mt-5 pt-5">
+                            <div class="container">
+                                <!--                                        Start tag-->
+                                <?php
+                                $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                                $table = 'editor';
+                                $result = $mySQL-> query("SELECT * FROM $table where $table.type='Dịch vụ chuyển kho xưởng'") or die($mySQL->error);
+                                while ($data = mysqli_fetch_object($result))
+                                {
+                                    echo
+                                        '<section class="pt-4">
+                                    <hr class="mb-5">
+                                    <div class="row wow fadeIn">
+                                        <div class="col-lg-5 col-xl-4 mb-4">
+                                            <div class="view overlay rounded z-depth-1">
+                                                <img src="admin/uploads/'.$data->miniImage.'" class="img-fluid" alt="">
+                                                 <div class="mask rgba-white-slight"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+                                            <h3 class="mb-3 font-weight-bold dark-grey-text">
+                                                <strong>'.$data->title.'</strong>
+                                            </h3>
+                                            <p class="grey-text">Tom tat noi dung bai viet</p>
+                                            <img src=""/>
+                                            <div class="iconRow" style="height: 20px!important;">
+                                                <div class="iconCol">
+                                                    <img class="icon" src="img/icon/ic_clock.png" style="height: 20px!important;width: 20px!important;">
+                                                </div>
+                                                <div class="iconDesCol">
+                                                    <p style="font-size: 12px">Ngày đăng:'. $data->created.'</p>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="iconRow" style="height: 20px!important;">
+                                            <div class="iconCol">
+                                                <img class="icon" src="img/icon/ic_eye.png" style="height: 20px!important;width: 20px!important;">
+                                            </div>
+                                            <div class="iconDesCol">
+                                                <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
+                                            </div>
+                                        </div>
+                                        </div>';
+                                }
+                                ?>
+                                <!--                                        End tag-->
+                            </div>
+                            <hr class="mb-5">
+                            </section>
+                    </div>
+</main>
+
+
                     </div>
                     <div id="menu3" class="tab-pane fade">
-                        <h3>Menu 3</h3>
-                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <h3>Dịch vụ cho thuê xe tải</h3>
+                        <main class="mt-5 pt-5">
+                            <div class="container">
+                                <!--                                        Start tag-->
+                                <?php
+                                $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                                $table = 'editor';
+                                $result = $mySQL-> query("SELECT * FROM $table where $table.type='Dịch vụ cho thuê xe tải'") or die($mySQL->error);
+                                while ($data = mysqli_fetch_object($result))
+                                {
+                                    echo
+                                        '<section class="pt-4">
+                                    <hr class="mb-5">
+                                    <div class="row wow fadeIn">
+                                        <div class="col-lg-5 col-xl-4 mb-4">
+                                            <div class="view overlay rounded z-depth-1">
+                                                <img src="admin/uploads/'.$data->miniImage.'" class="img-fluid" alt="">
+                                                 <div class="mask rgba-white-slight"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+                                            <h3 class="mb-3 font-weight-bold dark-grey-text">
+                                                <strong>'.$data->title.'</strong>
+                                            </h3>
+                                            <p class="grey-text">Tom tat noi dung bai viet</p>
+                                            <img src=""/>
+                                            <div class="iconRow" style="height: 20px!important;">
+                                                <div class="iconCol">
+                                                    <img class="icon" src="img/icon/ic_clock.png" style="height: 20px!important;width: 20px!important;">
+                                                </div>
+                                                <div class="iconDesCol">
+                                                    <p style="font-size: 12px">Ngày đăng:'. $data->created.'</p>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="iconRow" style="height: 20px!important;">
+                                            <div class="iconCol">
+                                                <img class="icon" src="img/icon/ic_eye.png" style="height: 20px!important;width: 20px!important;">
+                                            </div>
+                                            <div class="iconDesCol">
+                                                <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
+                                            </div>
+                                        </div>
+                                        </div>';
+                                }
+                                ?>
+                                <!--                                        End tag-->
+                            </div>
+                            <hr class="mb-5">
+                            </section>
+                        </main>
+
+
                     </div>
                 </div>
             </div>
