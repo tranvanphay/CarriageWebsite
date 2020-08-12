@@ -81,7 +81,7 @@
                 </div>
                 <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
-                        <h3>HOME</h3>
+                        <h3>Chuyển nhà trọn gói</h3>
                         <main class="mt-5 pt-5">
                             <div class="container">
                                 <!--                                        Start tag-->
@@ -94,10 +94,11 @@
                                     echo
                                 '<section class="pt-4">
                                     <hr class="mb-5">
-                                    <div class="row wow fadeIn">
+                                   <a href="loadArticle.php?articleId='.$data->id.'">
+                                   <div class="row wow fadeIn">
                                         <div class="col-lg-5 col-xl-4 mb-4">
                                             <div class="view overlay rounded z-depth-1">
-                                                <img src="admin/uploads/'.$data->miniImage.'" class="img-fluid" alt="">
+                                                <img src="admin/uploads/' .$data->miniImage.'" class="img-fluid" alt="">
                                                  <div class="mask rgba-white-slight"></div>
                                             </div>
                                         </div>
@@ -124,13 +125,14 @@
                                                 <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
                                             </div>
                                         </div>
-                                        </div>';
-                                        }
-                                        ?>
+                                        </div>
 <!--                                        End tag-->
                                     </div>
+                                    </a>
                                     <hr class="mb-5">
-                                </section>
+                                </section>';
+                                }
+                                ?>
                             </div>
                         </main>
                     </div>
@@ -149,7 +151,7 @@
                                     echo
                                         '<section class="pt-4">
                                     <hr class="mb-5">
-                                    <div class="row wow fadeIn">
+                                   <a href="#"> <div class="row wow fadeIn">
                                         <div class="col-lg-5 col-xl-4 mb-4">
                                             <div class="view overlay rounded z-depth-1">
                                                 <img src="admin/uploads/'.$data->miniImage.'" class="img-fluid" alt="">
@@ -179,14 +181,17 @@
                                                 <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
                                             </div>
                                         </div>
-                                        </div>';
+                                        </div>
+<!--                                        End tag-->
+                                    </div>
+                                    </a>
+                                    <hr class="mb-5">
+                                </section>';
                                 }
                                 ?>
                                 <!--                                        End tag-->
-                            </div>
-                            <hr class="mb-5">
-                            </section>
-</main>
+                        </div>
+                        </main>
 
 
                     </div>
@@ -205,7 +210,7 @@
                                     echo
                                         '<section class="pt-4">
                                     <hr class="mb-5">
-                                    <div class="row wow fadeIn">
+                                    <a href="#"><div class="row wow fadeIn">
                                         <div class="col-lg-5 col-xl-4 mb-4">
                                             <div class="view overlay rounded z-depth-1">
                                                 <img src="admin/uploads/'.$data->miniImage.'" class="img-fluid" alt="">
@@ -235,15 +240,16 @@
                                                 <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
                                             </div>
                                         </div>
-                                        </div>';
+                                        </div>
+<!--                                        End tag-->
+                                    </div>
+                                    </a>
+                                    <hr class="mb-5">
+                                </section>';
                                 }
                                 ?>
-                                <!--                                        End tag-->
-                            </div>
-                            <hr class="mb-5">
-                            </section>
                     </div>
-</main>
+                    </main>
 
 
                     </div>
@@ -261,7 +267,7 @@
                                     echo
                                         '<section class="pt-4">
                                     <hr class="mb-5">
-                                    <div class="row wow fadeIn">
+                                    <a href="#"><div class="row wow fadeIn">
                                         <div class="col-lg-5 col-xl-4 mb-4">
                                             <div class="view overlay rounded z-depth-1">
                                                 <img src="admin/uploads/'.$data->miniImage.'" class="img-fluid" alt="">
@@ -291,16 +297,16 @@
                                                 <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
                                             </div>
                                         </div>
-                                        </div>';
+                                        </div>
+<!--                                        End tag-->
+                                    </div>
+                                    </a>
+                                    <hr class="mb-5">
+                                </section>';
                                 }
                                 ?>
-                                <!--                                        End tag-->
                             </div>
-                            <hr class="mb-5">
-                            </section>
                         </main>
-
-
                     </div>
                 </div>
             </div>

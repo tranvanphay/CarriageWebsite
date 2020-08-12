@@ -3,8 +3,8 @@
 require_once 'dbConfig.php';
 
 $editorContent = $statusMsg = '';
-$specialCheck = htmlspecialchars('<p><img');
-$specialReplace = htmlspecialchars('<p style="text-align: center"><img');
+$specialCheck = htmlspecialchars('<p><img alt="" src="ckeditor/..');
+$specialReplace = htmlspecialchars('<p style="text-align: center"><img alt="" src="admin');
 $data = 'abc';
 $type = "";
 $title = "";
