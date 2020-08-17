@@ -2370,6 +2370,9 @@ article img.pull-right, article .align-right {
 .nameWeb {
     color: #E9931B !important;
 }
+.imgArticle{
+}
+
 
 @-webkit-keyframes rotation {
     from {
@@ -2418,10 +2421,18 @@ article img.pull-right, article .align-right {
         font-size: 11pt;
     }
 
+    .textWhite{
+        color: white!important;
+    }
+
     .mapSize {
         height: 300px;
         width: auto;
         alignment: center;
+    }
+    .imgArticle{
+        max-width: 500px;
+        height: 300px;
     }
 }
 

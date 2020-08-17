@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Kodinger">
     <meta name="keyword" content="Vận chuyển Hồ Chí Minh,
      Giao hàng Hồ Chí Minh, Xe tải chở hàng quận 1,
      Xe tải chở hàng quận 2, Xe tải chở hàng quận 3, Xe tải chở hàng quận 4, Xe tải chở hàng quận 5, Xe tải chở hàng quận 6, Xe tải chở hàng quận 7, Xe tải chở hàng quận 8
         , Xe tải chở hàng quận 9, Xe tải chở hàng quận 10, Xe tải chở hàng quận 11, Xe tải chở hàng quận 12, Xe tải chở hàng quận Thủ Đức, Xe tải chở hàng quận Gò Vấp, Xe tải chở hàng quận Bình Thạnh
      , Xe tải chở hàng quận Tân Bình, Xe tải chở hàng quận Tân Phú, Xe tải chở hàng quận Phú Nhuận, Xe tải chở hàng quận Bình Tân, Xe tải chở hàng Củ Chi, Xe tải chở hàng Hóc Môn
-    , Xe tải chở hàng Bình Chánh, Xe tải chở hàng Nhà Bè, Xe tải chở hàng Cần Giờ, Taxi tải giá rẻ Hồ Chí Minh, Thuê xe liên tỉnh Hồ Chí Minh, Thuê xe chở hàng, Dịch vụ vận tải giá rẻ">    <!-- Shareable -->
-    <meta property="og:title" content="" />
+    , Xe tải chở hàng Bình Chánh, Xe tải chở hàng Nhà Bè, Xe tải chở hàng Cần Giờ, Taxi tải giá rẻ Hồ Chí Minh, Thuê xe liên tỉnh Hồ Chí Minh, Thuê xe chở hàng, Dịch vụ vận tải giá rẻ">
+    <!-- Shareable -->
+    <meta property="og:title" content="Dịch vụ giao hàng Hồ Chí Minh" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
+    <meta property="og:url" content="http://vpdev.xyz/officeMoving.php" />
+    <meta property="og:image" content="http://vpdev.xyz/img/1596342543982.jpeg" />
+    <!--    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />-->
     <title>Vận tải Tấn Thành</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="article/scripts/bootstrap/bootstrap.min.css">
@@ -84,42 +84,54 @@
         <div class="row">
             <div style="align-content: center; margin: 0px 10px 0px 10px">
                 <article class="article main-article">
-                    <?php
-                    $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
-                    $id = $_GET['articleId'];
-                    $table = 'editor';
-                    $updateView = "UPDATE editor SET `view`=`view`+1 WHERE id='".$id."'";
-                    $isSuccess = $mySQL->query($updateView);
-                    $result = $mySQL-> query("SELECT * FROM $table where $table.id='".$id."'") or die($mySQL->error);
-                    while ($data = mysqli_fetch_object($result)) {
-                        echo '<header>
-                        <h2 style="font-size: 18pt">'.$data->title.'</h2>
+                    <header>
+                        <h2>Dịch vụ chuyển nhà, chuyển văn phòng Hồ Chí Minh</h2>
                         <ul class="details">
-                            <li>Ngày đăng: '.$data->created.'</li>
-                            <li><a>'.$data->type.'</a></li>
-                            <li>Lượt xem: '.$data->view.'</li>
+                            <li>Ngày đăng: 16/08/2020</li>
                         </ul>
                     </header>
-                    <div class="main">'
-                        .$data->content.
-                    '</div>';
-                    }
-                    mysqli_close($mySQL);
-                    ?>
+                    <article class="main">
+                        <p>
+                            Với dịch vụ thuê xe chuyển nhà,chuyển văn phòng tphcm trọn gói giá rẻ đã và đang ngày càng phát triển nhờ sự tin tưởng và tiêu dùng nhiều trên thị trường của người dân.
+                            Không chỉ chuyển đồ đạc, mà còn lắp đặt an toàn tại nhà mới, dịch vụ còn mang đến sự hài lòng cho khách khi đến với dịch vụ của chúng tôi.
+                            Với đội ngũ nhân viên kinh nghiệm và quy trình chuyển văn phòng khoa học.
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> cam kết việc di chuyển văn phòng của bạn sẽ được đảm bảo an toàn và tiết kiệm tối đa chi phí, và nhất là công việc chuyển dọn diễn ra nhanh chóng
+                            , không ảnh hưởng đến hoạt động kinh doanh.
+                        </p>
+                        <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed.jpeg" alt="">
+                        <p>
+                            Với kinh nghiệm chuyển nhà, văn phòng, di dời kho xưởng cho hàng trăm nghìn khách hàng lớn nhỏ  tại
+                            TPHCM và các tỉnh thành lân cận.<a href="index.html">Chúng tôi</a> thấu hiểu khách hàng cần những gì ở một dịch vụ tốt – chất lượng.
+                            Để hoàn thiện sứ mệnh có thể mang đến những trải nghiệm tốt nhất cho khách hàng khi sử dụng dịch vụ . <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> không ngừng nỗ lực,
+                            cải tiến và nâng cao chất lượng dịch vụ,
+                            xứng đáng là Công ty chuyển văn phòng trọn gói uy tín nhất tại TPHCM.
+                        </p>
+                        <p>Xe tải của
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>
+                            sẽ có mặt đúng thời gian đã hẹn với khách hàng và thực hiện chuyển dọn văn
+                            phòng theo đúng phương án vận chuyển cụ thể trong hợp đồng.
+                            Toàn bộ đồ đạc, hồ sơ, trang thiết bị văn phòng của Quý khách sẽ được nhân viên của chúng tôi tiến hành:
+                            phân loại, tháo dỡ, đóng gói, đánh dấu,… một cách khoa học. Tất cả các đồ đạc, hồ sơ trang thiết bị văn phòng phải được bao bọc bằng vật tư phù hợp:
+                            Mút xố, màng pier, vải, carton, …
+                            để bảo vệ an toàn trong suốt quá trình từ khi tháo dỡ, đóng gói cho đến khi vận chuyển đến nơi mới.
+                        </p>
+                        <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed1.jpeg"/>
+                        <p>
+                            Sau khi hoàn tất và thực hiện xong tất cả các khâu trong hợp đồng. Khách hàng kiểm tra lại toàn bộ đồ đạc, hồ sơ,
+                            trang thiết bị, máy móc và tài sản. Nếu không có gì vướng mắc thì khách hàng sẽ tiến hành thanh toán chi phí như trong hợp đồng, sau đó thanh lý hợp đồng.
+                        </p>
+                    </article>
+
                 </article>
                 <div class="sharing">
                     <div class="title"><i class="ion-android-share-alt"></i> Chia sẻ</div>
                     <ul class="social">
                         <li>
-                            <a href="#" class="facebook">
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://vpdev.xyz/officeMoving.php" class="facebook">
                                 <i class="ion-social-facebook"></i> Facebook
                             </a>
                         </li>
-                        <li>
-                            <a href="#" class="twitter">
-                                <i class="ion-social-twitter"></i> Twitter
-                            </a>
-                        </li>
+
                         <li>
                             <a href="#" class="googleplus">
                                 <i class="ion-social-googleplus"></i> Google+
@@ -254,7 +266,7 @@
                     <div class="copyright">
                         <p>
                             <span>&copy; Vận tải Tấn Thành All right reserved. By </span><a
-                                    href="http://webthemez.com" target="_blank">vpdev</a>
+                                href="http://webthemez.com" target="_blank">vpdev</a>
                         </p>
                     </div>
                 </div>
@@ -346,7 +358,8 @@
     </div>
 </div>
 
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v8.0&appId=1248722505470908&autoLogAppEvents=1" nonce="4HWYxgW7"></script>
 <!-- JS -->
 <script src="article/js/jquery.js"></script>
 <script src="article/js/jquery.migrate.js"></script>

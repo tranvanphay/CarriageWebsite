@@ -325,7 +325,7 @@
                             quận 12, Thành phố Hồ Chí Minh.
                         </address>
                         <p>
-                            <i class="icon-phone"></i> (+84) 0779444123 <br>
+                            <i class="icon-phone"></i>0779444123 <br>
                             <i class="icon-envelope-alt"></i> vantaitanthanh.com@gmail.com
                         </p>
                     </div>
@@ -456,7 +456,7 @@
 
                 </div>
                 <div class="column2 hotline-text">
-                    <p>(+84) 077-944-4123</p>
+                    <p>077-944-4123</p>
                 </div>
             </div>
         </a>
@@ -471,7 +471,7 @@
                     </div>
                 </div>
                 <div class="column2 hotline-text">
-                    <p style="margin-left: 10px">(+84) 096-765-4454</p>
+                    <p style="margin-left: 10px">096-765-4454</p>
                 </div>
             </div>
         </a>

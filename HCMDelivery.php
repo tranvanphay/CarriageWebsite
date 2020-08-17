@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Kodinger">
     <meta name="keyword" content="Vận chuyển Hồ Chí Minh,
      Giao hàng Hồ Chí Minh, Xe tải chở hàng quận 1,
      Xe tải chở hàng quận 2, Xe tải chở hàng quận 3, Xe tải chở hàng quận 4, Xe tải chở hàng quận 5, Xe tải chở hàng quận 6, Xe tải chở hàng quận 7, Xe tải chở hàng quận 8
         , Xe tải chở hàng quận 9, Xe tải chở hàng quận 10, Xe tải chở hàng quận 11, Xe tải chở hàng quận 12, Xe tải chở hàng quận Thủ Đức, Xe tải chở hàng quận Gò Vấp, Xe tải chở hàng quận Bình Thạnh
      , Xe tải chở hàng quận Tân Bình, Xe tải chở hàng quận Tân Phú, Xe tải chở hàng quận Phú Nhuận, Xe tải chở hàng quận Bình Tân, Xe tải chở hàng Củ Chi, Xe tải chở hàng Hóc Môn
-    , Xe tải chở hàng Bình Chánh, Xe tải chở hàng Nhà Bè, Xe tải chở hàng Cần Giờ, Taxi tải giá rẻ Hồ Chí Minh, Thuê xe liên tỉnh Hồ Chí Minh, Thuê xe chở hàng, Dịch vụ vận tải giá rẻ">    <!-- Shareable -->
-    <meta property="og:title" content="" />
+    , Xe tải chở hàng Bình Chánh, Xe tải chở hàng Nhà Bè, Xe tải chở hàng Cần Giờ, Taxi tải giá rẻ Hồ Chí Minh, Thuê xe liên tỉnh Hồ Chí Minh, Thuê xe chở hàng, Dịch vụ vận tải giá rẻ">
+    <!-- Shareable -->
+    <meta property="og:title" content="Dịch vụ giao hàng Hồ Chí Minh" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
+    <meta property="og:url" content="http://vpdev.xyz/HCMDelivery.php" />
+    <meta property="og:image" content="http://vpdev.xyz/img/processed.jpeg" />
+<!--    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />-->
     <title>Vận tải Tấn Thành</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="article/scripts/bootstrap/bootstrap.min.css">
@@ -84,42 +84,75 @@
         <div class="row">
             <div style="align-content: center; margin: 0px 10px 0px 10px">
                 <article class="article main-article">
-                    <?php
-                    $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
-                    $id = $_GET['articleId'];
-                    $table = 'editor';
-                    $updateView = "UPDATE editor SET `view`=`view`+1 WHERE id='".$id."'";
-                    $isSuccess = $mySQL->query($updateView);
-                    $result = $mySQL-> query("SELECT * FROM $table where $table.id='".$id."'") or die($mySQL->error);
-                    while ($data = mysqli_fetch_object($result)) {
-                        echo '<header>
-                        <h2 style="font-size: 18pt">'.$data->title.'</h2>
+                    <header>
+                        <h2>Giao hàng Thành phố Hồ Chí Minh</h2>
                         <ul class="details">
-                            <li>Ngày đăng: '.$data->created.'</li>
-                            <li><a>'.$data->type.'</a></li>
-                            <li>Lượt xem: '.$data->view.'</li>
+                            <li>Ngày đăng: 16/08/2020</li>
                         </ul>
                     </header>
-                    <div class="main">'
-                        .$data->content.
-                    '</div>';
-                    }
-                    mysqli_close($mySQL);
-                    ?>
+                    <article class="main">
+                        <p>
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> cung cấp dịch vụ giao hàng tất cả các địa điểm trên thành phố Hồ Chí Minh.
+                            Với 1 mức giá hợp lý cùng với sự chuyên nghiệp trong việc bốc xếp, giao hàng,
+                            khách hàng sẽ yên tâm về sự an toàn của hàng hóa khi chọn chúng tôi.
+                        </p>
+                        <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed.jpeg" alt="">
+                        <p>
+                           <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> hoạt động trong lĩnh vực vận chuyển hàng hóa có uy tín tại Hồ Chí Minh.
+                            Hiện nay, chúng tôi có khả năng cung cấp dịch vụ vận tải hàng hóa trên toàn quốc.
+                            Dù ở Bất cứ nơi đâu, vận chuyển tới bất cứ nơi nào, chúng tôi đều có thể cung cấp cho Khách Hàng
+                            dịch vụ giao nhận - vận chuyển - vận tải - chuyển phát nhanh tận nơi nhanh nhất, an toàn nhất ở mọi thời đểm.
+                        </p>
+                        <p>
+                            Trong suốt quá trình hàng hóa được vận chuyển,
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>
+                            luôn chịu trách nhiệm bảo quản hàng hóa của khách hàng một cách an toàn nhất nên được nhiều khách hàng tin tưởng.
+                            Bên cạnh đó, <a href="index.html">Chúng tôi</a> cũng luôn đảm bảo hàng hóa của quý khách được giao nhận tận nơi đúng thời gian, lịch trình như hợp đồng đã ký kết.
+                        </p>
+                        <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed1.jpeg"/>
+                        <p>
+                            Song song với dịch vụ vận tải hàng hóa,
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>
+                            còn có những dịch vụ khác có liên quan chặt chẽ và không thể thiếu trong ngành vận tải, đó là:</br>
+
+                            - Cung cấp dịch vụ giao nhận- vận tải- vận chuyển giao nhận tận nơi(Door to Door).</br>
+
+                            - Cung cấp dịch vụ chuyển phát nhanh trên toàn quốc với tất cả các loại hàng hóa.</br>
+
+                            - Cung cấp dịch vụ vận chuyển hàng hóa Bắc - Trung - Nam bằng đường Bộ</br>
+
+                            - Cung cấp dịch vụ dọn nhà trọn gói.</br>
+
+                            - Cung cấp dịch vụ vận chuyển hàng hóa Toàn Quốc</br>
+
+                            - Cung cấp dịch vụ cho thuê kho bãi để lưu hàng và lưu xe.</br>
+
+                            - Cung cấp dịch vụ Mua và bán các loại ô tô, xe tải,xe có động cơ đã qua sử dụng.</br>
+
+                            - Cung cấp dịch vụ Sửa chữa các loại ô tô, xe tải,</br>
+
+                            - Cung cấp dịch vụ cho thuê xe tải chở hàng để khách hàng tự phục vụ trong công tác vận chuyển hàng hóa.
+                        </p>
+                        <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="imgHard/taxi-tai-gia-re-hcm-calling.jpg">
+                        <p>
+                            Quý khách có nhu cầu sử dụng dịch vụ vận chuyển hàng hóa chuyên nghiệp và uy tín của
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>,
+                            vui lòng
+                            liên hệ
+                            ngay với chúng tôi để được phục vụ một cách chu đáo nhất trong thời gian sớm nhất.
+                        </p>
+                    </article>
+
                 </article>
                 <div class="sharing">
                     <div class="title"><i class="ion-android-share-alt"></i> Chia sẻ</div>
                     <ul class="social">
                         <li>
-                            <a href="#" class="facebook">
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://vpdev.xyz/HCMDelivery.php" class="facebook">
                                 <i class="ion-social-facebook"></i> Facebook
                             </a>
                         </li>
-                        <li>
-                            <a href="#" class="twitter">
-                                <i class="ion-social-twitter"></i> Twitter
-                            </a>
-                        </li>
+
                         <li>
                             <a href="#" class="googleplus">
                                 <i class="ion-social-googleplus"></i> Google+
@@ -254,7 +287,7 @@
                     <div class="copyright">
                         <p>
                             <span>&copy; Vận tải Tấn Thành All right reserved. By </span><a
-                                    href="http://webthemez.com" target="_blank">vpdev</a>
+                                href="http://webthemez.com" target="_blank">vpdev</a>
                         </p>
                     </div>
                 </div>
@@ -346,7 +379,8 @@
     </div>
 </div>
 
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v8.0&appId=1248722505470908&autoLogAppEvents=1" nonce="4HWYxgW7"></script>
 <!-- JS -->
 <script src="article/js/jquery.js"></script>
 <script src="article/js/jquery.migrate.js"></script>

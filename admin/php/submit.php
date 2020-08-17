@@ -4,7 +4,7 @@ require_once 'dbConfig.php';
 
 $editorContent = $statusMsg = '';
 $specialCheck = htmlspecialchars('<p><img alt="" src="ckeditor/..');
-$specialReplace = htmlspecialchars('<p style="text-align: center"><img alt="" src="admin');
+$specialReplace = htmlspecialchars('<p style="text-align: center"><img alt="" class="img-fluid" style="max-width: 100% !important;height: auto !important;" src="admin');
 $data = 'abc';
 $type = "";
 $title = "";

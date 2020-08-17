@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Kodinger">
     <meta name="keyword" content="Vận chuyển Hồ Chí Minh,
      Giao hàng Hồ Chí Minh, Xe tải chở hàng quận 1,
      Xe tải chở hàng quận 2, Xe tải chở hàng quận 3, Xe tải chở hàng quận 4, Xe tải chở hàng quận 5, Xe tải chở hàng quận 6, Xe tải chở hàng quận 7, Xe tải chở hàng quận 8
         , Xe tải chở hàng quận 9, Xe tải chở hàng quận 10, Xe tải chở hàng quận 11, Xe tải chở hàng quận 12, Xe tải chở hàng quận Thủ Đức, Xe tải chở hàng quận Gò Vấp, Xe tải chở hàng quận Bình Thạnh
      , Xe tải chở hàng quận Tân Bình, Xe tải chở hàng quận Tân Phú, Xe tải chở hàng quận Phú Nhuận, Xe tải chở hàng quận Bình Tân, Xe tải chở hàng Củ Chi, Xe tải chở hàng Hóc Môn
-    , Xe tải chở hàng Bình Chánh, Xe tải chở hàng Nhà Bè, Xe tải chở hàng Cần Giờ, Taxi tải giá rẻ Hồ Chí Minh, Thuê xe liên tỉnh Hồ Chí Minh, Thuê xe chở hàng, Dịch vụ vận tải giá rẻ">    <!-- Shareable -->
-    <meta property="og:title" content="" />
+    , Xe tải chở hàng Bình Chánh, Xe tải chở hàng Nhà Bè, Xe tải chở hàng Cần Giờ, Taxi tải giá rẻ Hồ Chí Minh, Thuê xe liên tỉnh Hồ Chí Minh, Thuê xe chở hàng, Dịch vụ vận tải giá rẻ">
+    <!-- Shareable -->
+    <meta property="og:title" content="Dịch vụ giao hàng Hồ Chí Minh" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
+    <meta property="og:url" content="http://vpdev.xyz/outOfCityMoving.php" />
+    <meta property="og:image" content="http://vpdev.xyz/img/processed1.jpeg" />
+    <!--    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />-->
     <title>Vận tải Tấn Thành</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="article/scripts/bootstrap/bootstrap.min.css">
@@ -84,42 +84,53 @@
         <div class="row">
             <div style="align-content: center; margin: 0px 10px 0px 10px">
                 <article class="article main-article">
-                    <?php
-                    $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
-                    $id = $_GET['articleId'];
-                    $table = 'editor';
-                    $updateView = "UPDATE editor SET `view`=`view`+1 WHERE id='".$id."'";
-                    $isSuccess = $mySQL->query($updateView);
-                    $result = $mySQL-> query("SELECT * FROM $table where $table.id='".$id."'") or die($mySQL->error);
-                    while ($data = mysqli_fetch_object($result)) {
-                        echo '<header>
-                        <h2 style="font-size: 18pt">'.$data->title.'</h2>
+                    <header>
+                        <h2>Dịch vụ giao hàng liên tỉnh</h2>
                         <ul class="details">
-                            <li>Ngày đăng: '.$data->created.'</li>
-                            <li><a>'.$data->type.'</a></li>
-                            <li>Lượt xem: '.$data->view.'</li>
+                            <li>Ngày đăng: 16/08/2020</li>
                         </ul>
                     </header>
-                    <div class="main">'
-                        .$data->content.
-                    '</div>';
-                    }
-                    mysqli_close($mySQL);
-                    ?>
+                    <article class="main">
+                        <p>
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> vận chuyển nội ngoại thành bằng xe tải chuyên nghiệp,
+                            uy tín, nhiệt tình, không ngại gần xa, sớm tối, phục vụ 24/24,kể cả ngày lễ, bảo đảm hàng hóa cẩn thận.</br>
+                            Quý khách đang có nhu cầu vận chuyển hàng hóa của mình từ tỉnh ngày sang tỉnh khác.
+                            Và việc tìm kiếm, chọn lựa một đơn vị cung cấp dịch vụ vận chuyển hàng hóa uy tín, tin cậy làm quý khách trở nên bối rối.
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> xin trân trọng giới thiệu tới quý khách hàng dịch vụ vận chuyển hàng hóa liên tỉnh –
+                            Một trong những dịch vụ tốt nhất của công ty hiện nay.Hãy tham khảo và sử dụng dịch vận chuyển hàng hóa liên tỉnh của <a href="index.html">chúng tôi</a>.
+                            Với tiêu chí đặt chất lượng lên hàng đầu,
+                            <a href="index.html">chúng tôi</a> tin tưởng sẽ mang đến cho quý khách hàng sự hài lòng nhất khi sử dụng dịch vụ của công ty.
+                        </p>
+                        <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed.jpeg" alt="">
+                        <p>
+                            Khi sử dụng dịch vụ vận chuyển hàng hóa liên tỉnh của
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>,
+                            quý khách hoàn toàn có thể yên tâm về chất lượng hàng hóa trong quá trình vận chuyển.
+                            Bởi
+                            <a href="index.html">chúng tôi</a>
+                            có những cam kết, hợp đồng, hóa đơn chứng từ đầy đủ minh bạch, rõ ràng đối với từng mặt hàng cần vận chuyển của quý khách.
+                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>
+                            nhận vận chuyển hàng hóa liên tỉnh với một số mặt hàng cụ thể như sau: Hàng hóa nông, thủy hải sản, các mặt hàng tạp hóa tiêu dùng,
+                            đồ nội thất, hàng lắp ráp, máy móc thiết bị ô tô, xe máy, các loại hàng hóa siêu trường siêu trọng, quá khổ quá tải…
+                            <a href="index.html">chúng tôi</a>
+                            cam kết sẽ mang đến cho quý khách hàng một dịch vụ vận chuyển hàng hóa liên tỉnh tiện ích và tối ưu nhất.
+                            Hãy chọn dịch vụ vận chuyển hàng hóa liên tỉnh của
+                            <a href="index.html">chúng tôi</a>
+                            ngay hôm nay để trải nghiệm phong cách phục vụ chuyên nghiệp và bài bản.
+                        </p>
+
+                    </article>
+
                 </article>
                 <div class="sharing">
                     <div class="title"><i class="ion-android-share-alt"></i> Chia sẻ</div>
                     <ul class="social">
                         <li>
-                            <a href="#" class="facebook">
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://vpdev.xyz/outOfCityMoving.php" class="facebook">
                                 <i class="ion-social-facebook"></i> Facebook
                             </a>
                         </li>
-                        <li>
-                            <a href="#" class="twitter">
-                                <i class="ion-social-twitter"></i> Twitter
-                            </a>
-                        </li>
+
                         <li>
                             <a href="#" class="googleplus">
                                 <i class="ion-social-googleplus"></i> Google+
@@ -254,7 +265,7 @@
                     <div class="copyright">
                         <p>
                             <span>&copy; Vận tải Tấn Thành All right reserved. By </span><a
-                                    href="http://webthemez.com" target="_blank">vpdev</a>
+                                href="http://webthemez.com" target="_blank">vpdev</a>
                         </p>
                     </div>
                 </div>
@@ -346,7 +357,8 @@
     </div>
 </div>
 
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v8.0&appId=1248722505470908&autoLogAppEvents=1" nonce="4HWYxgW7"></script>
 <!-- JS -->
 <script src="article/js/jquery.js"></script>
 <script src="article/js/jquery.migrate.js"></script>
