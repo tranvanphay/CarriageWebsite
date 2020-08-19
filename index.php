@@ -43,11 +43,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
+                    <a href="index.php"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Trang chủ</a></li>
+                        <li class="active"><a href="index.php">Trang chủ</a></li>
                         <li><a href="about.html">Giới thiệu</a></li>
                         <li><a href="services.html">Dịch vụ</a></li>
                         <li><a href="news.php">Tin tức</a></li>
@@ -92,26 +92,50 @@
     <section>
         <div class="container">
             <div class="row service-v1 margin-bottom-40">
+
+                <?php
+                $hcm_delivery = 'HCMDelivery.php';
+                $office_moving = 'officeMoving.php';
+                $out_of_city_moving = 'outOfCityMoving.php';
+                ?>
+
                 <div class="col-md-4 md-margin-bottom-40">
                     <img class="img-responsive" src="img/processed.jpeg" alt="">
                     <span> <h2>Giao hàng thành phố Hồ Chí Minh</h2>
                 <p style="height: 150px">Vận tải Tấn Thành cung cấp dịch vụ giao hàng tất cả các địa điểm trên thành phố Hồ Chí Minh. Với 1 mức giá hợp lý cùng với sự chuyên nghiệp trong việc bốc xếp, giao hàng, khách hàng sẽ yên tâm về sự an toàn của hàng hóa khi chọn chúng tôi</p>
-                <a href="HCMDelivery.php" class="btn more">Xem thêm</a>	</span>
+                    <div style="background-color: #e4e4e4">
+                        <input class="btn more" type="button" onclick="location.href='<?php echo $hcm_delivery; ?>'" value='Xem thêm'>
+                    </div>
+                   </span>
+
                 </div>
-                <div class="col-md-4">
+
+                <a style="color: gray!important;" href="officeMoving.php">
+                <div class="col-md-4 md-margin-bottom-40">
                     <img class="img-responsive" src="img/processed1.jpeg" alt="">
                     <span><h2>Chuyển nhà, chuyển văn phòng trọn gói</h2>
-                <p style="height: 150px">Với dịch vụ thuê xe chuyển nhà,chuyển văn phòng tphcm trọn gói giá rẻ đã và đang ngày càng phát triển nhờ sự tin tưởng và tiêu dùng nhiều trên thị trường của người dân. Không chỉ chuyển đồ đạc, mà còn lắp đặt an toàn tại nhà mới, dịch vụ còn mang đến sự hài lòng cho khách khi đến với dịch vụ của chúng tôi.</p>
-                    <a href="officeMoving.php" class="btn more">Xem thêm</a>
+                <p style="height: 150px">Với dịch vụ thuê xe chuyển nhà,chuyển văn phòng tphcm trọn gói giá rẻ đã và đang ngày càng phát triển nhờ sự tin tưởng và tiêu dùng nhiều trên thị trường của người dân. Không chỉ chuyển đồ đạc, mà còn lắp đặt an toàn tại nhà mới, dịch vụ còn mang đến sự hài lòng ...</p>
+                     <div style="background-color: #e4e4e4">
+                    <input class="btn more" type="button" onclick="location.href='<?php echo $office_moving; ?>'" value='Xem thêm'>
+                    </div>
                     </span>
                 </div>
+                </a>
+
+                <a style="color: gray!important;" href="outOfCityMoving.php">
                 <div class="col-md-4 md-margin-bottom-40">
                     <img class="img-responsive" src="img/1596342543982.jpeg" alt="">
                     <span><h2>Giao hàng liên tỉnh</h2>
 					<p style="height: 170px">Dịch Vụ Vận Tải Tấn Thành vận chuyển nội ngoại thành bằng xe tải chuyên nghiệp, uy tín, nhiệt tình, không ngại gần xa, sớm tối, phục vụ 24/24,kể cả ngày lễ, bảo đảm hàng hóa cẩn thận.
 						<br>Vận tải Tấn Thành, niềm tin cho hàng hóa của bạn.</p>
-                     <a href="outOfCityMoving.php" class="btn more">Xem thêm</a>	</span>
+                     <div style="background-color: #e4e4e4">
+                        <input class="btn more" type="button" onclick="location.href='<?php echo $out_of_city_moving.$input; ?>'" value='Xem thêm'>
+                     </div>
+                    </span>
                 </div>
+                </a>
+
+
             </div>
         </div>
     </section>

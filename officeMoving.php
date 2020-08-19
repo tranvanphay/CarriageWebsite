@@ -63,11 +63,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
+                <a href="index.php"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="index.php">Trang chủ</a></li>
                     <li><a href="about.html">Giới thiệu</a></li>
                     <li><a href="services.html">Dịch vụ</a></li>
                     <li class="active"><a href="news.php">Tin tức</a></li>
@@ -95,19 +95,19 @@
                             Với dịch vụ thuê xe chuyển nhà,chuyển văn phòng tphcm trọn gói giá rẻ đã và đang ngày càng phát triển nhờ sự tin tưởng và tiêu dùng nhiều trên thị trường của người dân.
                             Không chỉ chuyển đồ đạc, mà còn lắp đặt an toàn tại nhà mới, dịch vụ còn mang đến sự hài lòng cho khách khi đến với dịch vụ của chúng tôi.
                             Với đội ngũ nhân viên kinh nghiệm và quy trình chuyển văn phòng khoa học.
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> cam kết việc di chuyển văn phòng của bạn sẽ được đảm bảo an toàn và tiết kiệm tối đa chi phí, và nhất là công việc chuyển dọn diễn ra nhanh chóng
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a> cam kết việc di chuyển văn phòng của bạn sẽ được đảm bảo an toàn và tiết kiệm tối đa chi phí, và nhất là công việc chuyển dọn diễn ra nhanh chóng
                             , không ảnh hưởng đến hoạt động kinh doanh.
                         </p>
                         <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed.jpeg" alt="">
                         <p>
                             Với kinh nghiệm chuyển nhà, văn phòng, di dời kho xưởng cho hàng trăm nghìn khách hàng lớn nhỏ  tại
-                            TPHCM và các tỉnh thành lân cận.<a href="index.html">Chúng tôi</a> thấu hiểu khách hàng cần những gì ở một dịch vụ tốt – chất lượng.
-                            Để hoàn thiện sứ mệnh có thể mang đến những trải nghiệm tốt nhất cho khách hàng khi sử dụng dịch vụ . <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> không ngừng nỗ lực,
+                            TPHCM và các tỉnh thành lân cận.<a href="index.php">Chúng tôi</a> thấu hiểu khách hàng cần những gì ở một dịch vụ tốt – chất lượng.
+                            Để hoàn thiện sứ mệnh có thể mang đến những trải nghiệm tốt nhất cho khách hàng khi sử dụng dịch vụ . <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a> không ngừng nỗ lực,
                             cải tiến và nâng cao chất lượng dịch vụ,
                             xứng đáng là Công ty chuyển văn phòng trọn gói uy tín nhất tại TPHCM.
                         </p>
                         <p>Xe tải của
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a>
                             sẽ có mặt đúng thời gian đã hẹn với khách hàng và thực hiện chuyển dọn văn
                             phòng theo đúng phương án vận chuyển cụ thể trong hợp đồng.
                             Toàn bộ đồ đạc, hồ sơ, trang thiết bị văn phòng của Quý khách sẽ được nhân viên của chúng tôi tiến hành:
@@ -371,7 +371,7 @@
 <script src="article/scripts/easescroll/jquery.easeScroll.js"></script>
 <script src="article/scripts/sweetalert/dist/sweetalert.min.js"></script>
 <script src="article/scripts/toast/jquery.toast.min.js"></script>
-<script src="article/js/demo.js"></script>
+<!--<script src="article/js/demo.js"></script>-->
 <script src="article/js/e-magz.js"></script>
 <script src="js/autoScroll/mousescroll.js"></script>
 <script src="js/autoScroll/smoothscroll.js"></script>

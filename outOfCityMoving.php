@@ -63,11 +63,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
+                <a href="index.php"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="index.php">Trang chủ</a></li>
                     <li><a href="about.html">Giới thiệu</a></li>
                     <li><a href="services.html">Dịch vụ</a></li>
                     <li class="active"><a href="news.php">Tin tức</a></li>
@@ -92,30 +92,30 @@
                     </header>
                     <article class="main">
                         <p>
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> vận chuyển nội ngoại thành bằng xe tải chuyên nghiệp,
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a> vận chuyển nội ngoại thành bằng xe tải chuyên nghiệp,
                             uy tín, nhiệt tình, không ngại gần xa, sớm tối, phục vụ 24/24,kể cả ngày lễ, bảo đảm hàng hóa cẩn thận.</br>
                             Quý khách đang có nhu cầu vận chuyển hàng hóa của mình từ tỉnh ngày sang tỉnh khác.
                             Và việc tìm kiếm, chọn lựa một đơn vị cung cấp dịch vụ vận chuyển hàng hóa uy tín, tin cậy làm quý khách trở nên bối rối.
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> xin trân trọng giới thiệu tới quý khách hàng dịch vụ vận chuyển hàng hóa liên tỉnh –
-                            Một trong những dịch vụ tốt nhất của công ty hiện nay.Hãy tham khảo và sử dụng dịch vận chuyển hàng hóa liên tỉnh của <a href="index.html">chúng tôi</a>.
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a> xin trân trọng giới thiệu tới quý khách hàng dịch vụ vận chuyển hàng hóa liên tỉnh –
+                            Một trong những dịch vụ tốt nhất của công ty hiện nay.Hãy tham khảo và sử dụng dịch vận chuyển hàng hóa liên tỉnh của <a href="index.php">chúng tôi</a>.
                             Với tiêu chí đặt chất lượng lên hàng đầu,
-                            <a href="index.html">chúng tôi</a> tin tưởng sẽ mang đến cho quý khách hàng sự hài lòng nhất khi sử dụng dịch vụ của công ty.
+                            <a href="index.php">chúng tôi</a> tin tưởng sẽ mang đến cho quý khách hàng sự hài lòng nhất khi sử dụng dịch vụ của công ty.
                         </p>
                         <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed.jpeg" alt="">
                         <p>
                             Khi sử dụng dịch vụ vận chuyển hàng hóa liên tỉnh của
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>,
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a>,
                             quý khách hoàn toàn có thể yên tâm về chất lượng hàng hóa trong quá trình vận chuyển.
                             Bởi
-                            <a href="index.html">chúng tôi</a>
+                            <a href="index.php">chúng tôi</a>
                             có những cam kết, hợp đồng, hóa đơn chứng từ đầy đủ minh bạch, rõ ràng đối với từng mặt hàng cần vận chuyển của quý khách.
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a>
                             nhận vận chuyển hàng hóa liên tỉnh với một số mặt hàng cụ thể như sau: Hàng hóa nông, thủy hải sản, các mặt hàng tạp hóa tiêu dùng,
                             đồ nội thất, hàng lắp ráp, máy móc thiết bị ô tô, xe máy, các loại hàng hóa siêu trường siêu trọng, quá khổ quá tải…
-                            <a href="index.html">chúng tôi</a>
+                            <a href="index.php">chúng tôi</a>
                             cam kết sẽ mang đến cho quý khách hàng một dịch vụ vận chuyển hàng hóa liên tỉnh tiện ích và tối ưu nhất.
                             Hãy chọn dịch vụ vận chuyển hàng hóa liên tỉnh của
-                            <a href="index.html">chúng tôi</a>
+                            <a href="index.php">chúng tôi</a>
                             ngay hôm nay để trải nghiệm phong cách phục vụ chuyên nghiệp và bài bản.
                         </p>
 
@@ -370,7 +370,7 @@
 <script src="article/scripts/easescroll/jquery.easeScroll.js"></script>
 <script src="article/scripts/sweetalert/dist/sweetalert.min.js"></script>
 <script src="article/scripts/toast/jquery.toast.min.js"></script>
-<script src="article/js/demo.js"></script>
+<!--<script src="article/js/demo.js"></script>-->
 <script src="article/js/e-magz.js"></script>
 <script src="js/autoScroll/mousescroll.js"></script>
 <script src="js/autoScroll/smoothscroll.js"></script>

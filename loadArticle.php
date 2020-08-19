@@ -63,11 +63,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
+                <a href="index.php"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="index.php">Trang chủ</a></li>
                     <li><a href="about.html">Giới thiệu</a></li>
                     <li><a href="services.html">Dịch vụ</a></li>
                     <li class="active"><a href="news.php">Tin tức</a></li>
@@ -358,7 +358,7 @@
 <script src="article/scripts/easescroll/jquery.easeScroll.js"></script>
 <script src="article/scripts/sweetalert/dist/sweetalert.min.js"></script>
 <script src="article/scripts/toast/jquery.toast.min.js"></script>
-<script src="article/js/demo.js"></script>
+<!--<script src="article/js/demo.js"></script>-->
 <script src="article/js/e-magz.js"></script>
 <script src="js/autoScroll/mousescroll.js"></script>
 <script src="js/autoScroll/smoothscroll.js"></script>

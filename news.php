@@ -1,8 +1,4 @@
-<?php
-//include_once("admin/php/dbConfig.php");
-//$query = "Select * from editor";
-//$result = mysqli_query($query);
-//?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,11 +40,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
+                    <a href="index.php"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="index.php">Trang chủ</a></li>
                         <li><a href="about.html">Giới thiệu</a></li>
                         <li><a href="services.html">Dịch vụ</a></li>
                         <li class="active"><a href="news.php">Tin tức</a></li>
@@ -113,7 +109,7 @@
                                                     <img class="icon" src="img/icon/ic_clock.png" style="height: 20px!important;width: 20px!important;">
                                                 </div>
                                                 <div class="iconDesCol">
-                                                    <p style="font-size: 12px">Ngày đăng:'. $data->created.'</p>
+                                                    <p style="font-size: 12px">Ngày đăng: '. $data->created.'</p>
                                                 </div>
                                             </div>
                                             <br>
@@ -122,7 +118,7 @@
                                                 <img class="icon" src="img/icon/ic_eye.png" style="height: 20px!important;width: 20px!important;">
                                             </div>
                                             <div class="iconDesCol">
-                                                <p style="font-size: 12px">Lượt xem:'. $data->view.'</p>
+                                                <p style="font-size: 12px">Lượt xem: '. $data->view.'</p>
                                             </div>
                                         </div>
                                         </div>

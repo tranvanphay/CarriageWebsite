@@ -63,11 +63,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
+                <a href="index.php"><img class="favor" src="img/logo_vehicle.png" alt="logo"/></a>
             </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="index.php">Trang chủ</a></li>
                     <li><a href="about.html">Giới thiệu</a></li>
                     <li><a href="services.html">Dịch vụ</a></li>
                     <li class="active"><a href="news.php">Tin tức</a></li>
@@ -92,27 +92,27 @@
                     </header>
                     <article class="main">
                         <p>
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> cung cấp dịch vụ giao hàng tất cả các địa điểm trên thành phố Hồ Chí Minh.
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a> cung cấp dịch vụ giao hàng tất cả các địa điểm trên thành phố Hồ Chí Minh.
                             Với 1 mức giá hợp lý cùng với sự chuyên nghiệp trong việc bốc xếp, giao hàng,
                             khách hàng sẽ yên tâm về sự an toàn của hàng hóa khi chọn chúng tôi.
                         </p>
                         <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed.jpeg" alt="">
                         <p>
-                           <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a> hoạt động trong lĩnh vực vận chuyển hàng hóa có uy tín tại Hồ Chí Minh.
+                           <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a> hoạt động trong lĩnh vực vận chuyển hàng hóa có uy tín tại Hồ Chí Minh.
                             Hiện nay, chúng tôi có khả năng cung cấp dịch vụ vận tải hàng hóa trên toàn quốc.
                             Dù ở Bất cứ nơi đâu, vận chuyển tới bất cứ nơi nào, chúng tôi đều có thể cung cấp cho Khách Hàng
                             dịch vụ giao nhận - vận chuyển - vận tải - chuyển phát nhanh tận nơi nhanh nhất, an toàn nhất ở mọi thời đểm.
                         </p>
                         <p>
                             Trong suốt quá trình hàng hóa được vận chuyển,
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a>
                             luôn chịu trách nhiệm bảo quản hàng hóa của khách hàng một cách an toàn nhất nên được nhiều khách hàng tin tưởng.
-                            Bên cạnh đó, <a href="index.html">Chúng tôi</a> cũng luôn đảm bảo hàng hóa của quý khách được giao nhận tận nơi đúng thời gian, lịch trình như hợp đồng đã ký kết.
+                            Bên cạnh đó, <a href="index.php">Chúng tôi</a> cũng luôn đảm bảo hàng hóa của quý khách được giao nhận tận nơi đúng thời gian, lịch trình như hợp đồng đã ký kết.
                         </p>
                         <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="img/processed1.jpeg"/>
                         <p>
                             Song song với dịch vụ vận tải hàng hóa,
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a>
                             còn có những dịch vụ khác có liên quan chặt chẽ và không thể thiếu trong ngành vận tải, đó là:</br>
 
                             - Cung cấp dịch vụ giao nhận- vận tải- vận chuyển giao nhận tận nơi(Door to Door).</br>
@@ -136,7 +136,7 @@
                         <img class="img-fluid" style=" margin-bottom: 10px; max-width: 100% !important;height: auto !important;" src="imgHard/taxi-tai-gia-re-hcm-calling.jpg">
                         <p>
                             Quý khách có nhu cầu sử dụng dịch vụ vận chuyển hàng hóa chuyên nghiệp và uy tín của
-                            <a href="index.html">Taxi tải giá rẻ Hồ Chí Minh</a>,
+                            <a href="index.php">Taxi tải giá rẻ Hồ Chí Minh</a>,
                             vui lòng
                             liên hệ
                             ngay với chúng tôi để được phục vụ một cách chu đáo nhất trong thời gian sớm nhất.
@@ -179,6 +179,38 @@
                             <figure>
                                 <a href="#">
                                     <img src="article/images/news/img03.jpg">
+                                </a>
+                            </figure>
+                            <div class="padding">
+                                <h2><a href="#">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
+                                <div class="detail">
+                                    <div class="category"><a href="category.html">Lifestyle</a></div>
+                                    <div class="time">December 26, 2016</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article related col-md-6 col-sm-6 col-xs-12">
+                        <div class="inner">
+                            <figure>
+                                <a href="#">
+                                    <img src="article/images/news/img08.jpg">
+                                </a>
+                            </figure>
+                            <div class="padding">
+                                <h2><a href="#">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
+                                <div class="detail">
+                                    <div class="category"><a href="category.html">Lifestyle</a></div>
+                                    <div class="time">December 26, 2016</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article related col-md-6 col-sm-6 col-xs-12">
+                        <div class="inner">
+                            <figure>
+                                <a href="#">
+                                    <img src="article/images/news/img08.jpg">
                                 </a>
                             </figure>
                             <div class="padding">
@@ -392,7 +424,7 @@
 <script src="article/scripts/easescroll/jquery.easeScroll.js"></script>
 <script src="article/scripts/sweetalert/dist/sweetalert.min.js"></script>
 <script src="article/scripts/toast/jquery.toast.min.js"></script>
-<script src="article/js/demo.js"></script>
+<!--<script src="article/js/demo.js"></script>-->
 <script src="article/js/e-magz.js"></script>
 <script src="js/autoScroll/mousescroll.js"></script>
 <script src="js/autoScroll/smoothscroll.js"></script>
