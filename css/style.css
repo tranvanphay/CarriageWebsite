@@ -2477,6 +2477,14 @@ article img.pull-right, article .align-right {
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
+.divCenterOuter{
+    width: 100%;
+  text-align: center;
+}
+.divCenterInner{
+    display: inline-block;
+}
+
 @media (min-width: 768px) {
     .sticky-phone-call {
         display: none;
