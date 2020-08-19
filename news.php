@@ -79,12 +79,13 @@
                     <div id="home" class="tab-pane fade in active">
                         <h3>Chuyển nhà trọn gói</h3>
                         <main class="mt-5 pt-5">
-                            <div class="container">
-                                <!--                                        Start tag-->
-                                <?php
+                            <!--                                        Start tag-->
+                            <?php
                                 $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
                                 $table = 'editor';
                                 $result = $mySQL-> query("SELECT * FROM $table where $table.type='Chuyển nhà trọn gói'") or die($mySQL->error);
+                          echo  '<div class="container">';
+
                                 while ($data = mysqli_fetch_object($result))
                                 {
                                     echo
@@ -128,8 +129,10 @@
                                     <hr class="mb-5">
                                 </section>';
                                 }
+                                echo '</div>';
                                 ?>
-                            </div>
+
+
 <!--                            --><?php
 //                                $result_per_page = 5;
 //                                $number_of_result = mysqli_num_rows($result);
@@ -158,12 +161,12 @@
                         <h3>Chuyển văn phòng trọn gói</h3>
 
                         <main class="mt-5 pt-5">
-                            <div class="container">
-                                <!--                                        Start tag-->
-                                <?php
+                            <?php
                                 $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
                                 $table = 'editor';
                                 $result = $mySQL-> query("SELECT * FROM $table where $table.type='Chuyển văn phòng trọn gói'") or die($mySQL->error);
+                            echo '<div class="container">';
+
                                 while ($data = mysqli_fetch_object($result))
                                 {
                                     echo
@@ -206,9 +209,8 @@
                                     <hr class="mb-5">
                                 </section>';
                                 }
-                                ?>
-                                <!--                                        End tag-->
-                        </div>
+                      echo  '</div>';
+                            ?>
                         </main>
 
 
@@ -217,12 +219,12 @@
                         <h3>Dịch vụ chuyển kho xưởng</h3>
 
                         <main class="mt-5 pt-5">
-                            <div class="container">
-                                <!--                                        Start tag-->
-                                <?php
+                            <!--                                        Start tag-->
+                            <?php
                                 $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
                                 $table = 'editor';
                                 $result = $mySQL-> query("SELECT * FROM $table where $table.type='Dịch vụ chuyển kho xưởng'") or die($mySQL->error);
+                            echo '<div class="container">';
                                 while ($data = mysqli_fetch_object($result))
                                 {
                                     echo
@@ -265,8 +267,8 @@
                                     <hr class="mb-5">
                                 </section>';
                                 }
-                                ?>
-                    </div>
+                   echo  '</div>'
+                     ?>
                     </main>
 
 
@@ -274,12 +276,12 @@
                     <div id="menu3" class="tab-pane fade">
                         <h3>Dịch vụ cho thuê xe tải</h3>
                         <main class="mt-5 pt-5">
-                            <div class="container">
-                                <!--                                        Start tag-->
-                                <?php
+                            <!--                                        Start tag-->
+                            <?php
                                 $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
                                 $table = 'editor';
                                 $result = $mySQL-> query("SELECT * FROM $table where $table.type='Dịch vụ cho thuê xe tải'") or die($mySQL->error);
+                           echo '<div class="container">';
                                 while ($data = mysqli_fetch_object($result))
                                 {
                                     echo
@@ -322,8 +324,9 @@
                                     <hr class="mb-5">
                                 </section>';
                                 }
-                                ?>
-                            </div>
+
+                           echo '</div>';
+                            ?>
                         </main>
                     </div>
                 </div>
