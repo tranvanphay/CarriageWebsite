@@ -84,7 +84,17 @@
                                 $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
                                 $table = 'editor';
                                 $result = $mySQL-> query("SELECT * FROM $table where $table.type='Chuyển nhà trọn gói'") or die($mySQL->error);
-                          echo  '<div class="container">';
+                                $result_per_page = 5;
+                                $number_of_result = mysqli_num_rows($result);
+                                 $num_of_page = ceil($number_of_result/$result_per_page);
+                                 if(!isset($_GET['page'])){
+                                 $page = 1;
+                                 }else{
+                                 $page = $_GET['page'];
+                                 }
+                                 $this_page_first_result = ($page-1)*$result_per_page;
+                                 $result = $mySQL -> query("SELECT * FROM $table where $table.type='Chuyển nhà trọn gói' LIMIT ".$this_page_first_result. ',' .$result_per_page);
+                                echo  '<div class="container">';
 
                                 while ($data = mysqli_fetch_object($result))
                                 {
@@ -129,6 +139,9 @@
                                     <hr class="mb-5">
                                 </section>';
                                 }
+                            for ($page=1;$page<=$num_of_page;$page++) {
+                                echo '<a href="news.php?page=' . $page . '">' . $page . '</a> ';
+                            }
                                 echo '</div>';
                                 ?>
 
@@ -267,6 +280,7 @@
                                     <hr class="mb-5">
                                 </section>';
                                 }
+
                    echo  '</div>'
                      ?>
                     </main>
