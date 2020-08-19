@@ -130,6 +130,28 @@
                                 }
                                 ?>
                             </div>
+<!--                            --><?php
+//                                $result_per_page = 5;
+//                                $number_of_result = mysqli_num_rows($result);
+//                                $num_of_page = ceil($number_of_result/$result_per_page);
+//
+//                                if(!isset($_GET['page'])){
+//                                    $page = 1;
+//                                }else{
+//                                    $page = $_GET['page'];
+//                                }
+//
+//                                $this_page_first_result = ($page-1)*$result_per_page;
+//                                $result = $mySQL -> query("SELECT * FROM $table where $table.type='Chuyển nhà trọn gói' LIMIT ".$this_page_first_result. ',' .$result_per_page);
+//                                while($row = mysqli_fetch_array($result)) {
+//                                    echo $row['title'] . ' ' . $row['created']. '<br>';
+//                                }
+//
+//                            for($page=1;$page<=$num_of_page;$page++){
+//                                echo '<a href="news.php?page'.$page.'">'.$page.'</a>';
+//                            }
+//
+//                            ?>
                         </main>
                     </div>
                     <div id="menu1" class="tab-pane fade">
