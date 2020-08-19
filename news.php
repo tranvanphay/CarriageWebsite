@@ -139,12 +139,31 @@
                                     <hr class="mb-5">
                                 </section>';
                                 }
-                            for ($page=1;$page<=$num_of_page;$page++) {
-                                echo '<a href="news.php?page=' . $page . '">' . $page . '</a> ';
-                            }
-                                echo '</div>';
-                                ?>
+                   echo '<div id="pagin" class="pagination text-center">';
+                                if($page>1){
+                                    $page_num = $page-1;
+                                    echo '<a href="news.php?page=' . $page_num . '">' . "&laquo;" . '</a> ';
 
+                                }else{
+                                    echo '<a href="#pagin">&laquo;</a>';
+                                }
+                       for ($i=1;$i<=$num_of_page;$i++) {
+                           if($i==$page){
+                               echo '<a class="active" href="news.php?page=' . $i . '">' . $i . '</a> ';
+                           }else{
+                               echo '<a href="news.php?page=' . $i . '">' . $i . '</a> ';
+
+                           }
+                            }
+                                if($page<$num_of_page){
+                                    $page_num = $page+1;
+                                    echo '<a href="news.php?page=' . $page_num . '">' . "&raquo;" . '</a> ';
+                                }else {
+                                    echo '<a href="#pagin">&raquo;</a>';
+                                }
+
+                                  echo  '</div> </div>';
+                            ?>
 
 <!--                            --><?php
 //                                $result_per_page = 5;
