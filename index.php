@@ -2,7 +2,7 @@
 <html lang="en" xmlns:alignment="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
-    <title>Vận tải Tấn Thành</title>
+    <title>Taxi tải giá rẻ HCM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content=""/>
     <meta name="keyword" content="Vận chuyển Hồ Chí Minh,
@@ -89,9 +89,11 @@
         <!-- end slider -->
 
     </section>
+
+    <div>
     <section>
         <div class="container">
-            <div class="row service-v1 margin-bottom-40">
+            <div class="rowIndex box service-v1 margin-bottom-40">
 
                 <?php
                 $hcm_delivery = 'HCMDelivery.php';
@@ -99,10 +101,10 @@
                 $out_of_city_moving = 'outOfCityMoving.php';
                 ?>
 
-                <div>
+                <div class="columnIndex box">
                     <img class="img-responsive" src="img/processed.jpeg" alt="">
                     <span> <h2>Giao hàng thành phố Hồ Chí Minh</h2>
-                <p style="height: 150px">Vận tải Tấn Thành cung cấp dịch vụ giao hàng tất cả các địa điểm trên thành phố Hồ Chí Minh. Với 1 mức giá hợp lý cùng với sự chuyên nghiệp trong việc bốc xếp, giao hàng, khách hàng sẽ yên tâm về sự an toàn của hàng hóa khi chọn chúng tôi</p>
+                <p style="height: 150px">Taxi tải giá rẻ HCM cung cấp dịch vụ giao hàng tất cả các địa điểm trên thành phố Hồ Chí Minh. Với 1 mức giá hợp lý cùng với sự chuyên nghiệp trong việc bốc xếp, giao hàng, khách hàng sẽ yên tâm về sự an toàn của hàng hóa khi chọn chúng tôi</p>
                     <div style="background-color: #e4e4e4">
                         <input class="btn more" type="button" onclick="location.href='<?php echo $hcm_delivery; ?>'" value='Xem thêm'>
                     </div>
@@ -110,8 +112,7 @@
 
                 </div>
 
-                <a style="color: gray!important;" href="officeMoving.php">
-                <div>
+                <div class="columnIndex box">
                     <img class="img-responsive" src="img/processed1.jpeg" alt="">
                     <span><h2>Chuyển nhà, chuyển văn phòng trọn gói</h2>
                 <p style="height: 150px">Với dịch vụ thuê xe chuyển nhà,chuyển văn phòng tphcm trọn gói giá rẻ đã và đang ngày càng phát triển nhờ sự tin tưởng và tiêu dùng nhiều trên thị trường của người dân. Không chỉ chuyển đồ đạc, mà còn lắp đặt an toàn tại nhà mới, dịch vụ còn mang đến sự hài lòng ...</p>
@@ -120,25 +121,26 @@
                     </div>
                     </span>
                 </div>
-                </a>
 
-                <a style="color: gray!important;" href="outOfCityMoving.php">
-                <div>
+                <div class="columnIndex box">
                     <img class="img-responsive" src="img/1596342543982.jpeg" alt="">
                     <span><h2>Giao hàng liên tỉnh</h2>
-					<p style="height: 170px">Dịch Vụ Vận Tải Tấn Thành vận chuyển nội ngoại thành bằng xe tải chuyên nghiệp, uy tín, nhiệt tình, không ngại gần xa, sớm tối, phục vụ 24/24,kể cả ngày lễ, bảo đảm hàng hóa cẩn thận.
-						<br>Vận tải Tấn Thành, niềm tin cho hàng hóa của bạn.</p>
+					<p style="height: 170px">Taxi tải giá rẻ HCM vận chuyển nội ngoại thành bằng xe tải chuyên nghiệp, uy tín, nhiệt tình, không ngại gần xa, sớm tối, phục vụ 24/24,kể cả ngày lễ, bảo đảm hàng hóa cẩn thận.
+						<br>Taxi tải giá rẻ HCM, niềm tin cho hàng hóa của bạn.</p>
                      <div style="background-color: #e4e4e4">
                         <input class="btn more" type="button" onclick="location.href='<?php echo $out_of_city_moving; ?>'" value='Xem thêm'>
                      </div>
                     </span>
                 </div>
-                </a>
 
 
             </div>
         </div>
     </section>
+    </div>
+
+
+
     <section class="callaction">
         <div class="container">
             <div class="row">
@@ -146,9 +148,9 @@
                     <img src="img/people.png" alt="" width="100%"/>
                 </div>
                 <div class="col-md-8">
-                    <div><h1><span>Vận tải Tấn Thành kính chào quý khách!</span></h1><span
+                    <div><h1><span>Taxi tải giá rẻ HCM kính chào quý khách!</span></h1><span
                             class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>
-                        <p>Vận tải Tấn Thành là dịch vụ chuyển nhà, giao hàng giá rẻ. Với mức chi phí rẻ nhất hiện nay,
+                        <p>Taxi tải giá rẻ HCM là dịch vụ chuyển nhà, giao hàng giá rẻ. Với mức chi phí rẻ nhất hiện nay,
                             chúng tôi mang đến cho khách hàng.
                             Nối tiếp và kế thừa những tinh hoa của các hãng vận tải đi trước, chúng tôi đang góp sức
                             mình để xây dựng nên một diện mạo mới cho dịch vụ chuyển nhà ngày càng chuyên nghiệp hơn.
@@ -161,6 +163,8 @@
 
         </div>
     </section>
+
+
     <section id="content">
         <div class="container">
             <div class="row">
@@ -250,7 +254,7 @@
                     <div class="widget">
                         <h5 class="widgetheading">Liên lạc với chúng tôi</h5>
                         <address>
-                            <strong>Vận tải Tấn Thành</strong><br>
+                            <strong>Taxi tải giá rẻ HCM</strong><br>
                             2290 QL1A, phường Trung Mỹ Tây<br>
                             quận 12, Thành phố Hồ Chí Minh.
                         </address>
@@ -316,8 +320,7 @@
                     <div class="col-lg-6">
                         <div class="copyright">
                             <p>
-                                <span>Copyright &copy; 2020 <span class="nameWeb">Vận tải Tấn Thành</span> All right reserved. By </span><a
-                                    href="http://webthemez.com" target="_blank">vpdev</a>
+                                <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span> All right reserved.
                             </p>
                         </div>
                     </div>

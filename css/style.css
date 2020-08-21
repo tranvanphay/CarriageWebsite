@@ -2383,10 +2383,85 @@ article img.pull-right, article .align-right {
     }
 }
 
+.box {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnIndex {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.rowIndex:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnDistrictSeo{
+    float: left;
+    width: 27%;
+    padding: 10px;
+    height: auto;
+    font-style: italic;
+    color: #1c71ff;
+}
+.boxDistrictSeo{
+    box-sizing: border-box;
+}
+
+.rowDistrictSeo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 @media (max-width: 768px) {
     .favor {
         height: 50px;
         margin-left: 10px;
+    }
+
+    .columnIndex {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .box {
+        float: unset;
+        box-sizing: border-box;
+    }
+
+    .rowIndex:after {
+        float: unset;
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .columnDistrictSeo{
+        float: left;
+        width: 100%;
+        padding: 10px;
+        font-style: italic;
+        color: #1c71ff;
+
+    }
+    .boxDistrictSeo{
+        float: unset;
+        box-sizing: border-box;
+    }
+
+    .rowDistrictSeo:after {
+        float: unset;
+        content: "";
+        display: table;
+        clear: both;
     }
 
     .container {
@@ -2479,16 +2554,17 @@ article img.pull-right, article .align-right {
 
 .divCenterOuter{
     width: 100%;
-  text-align: center;
+    text-align: center;
 }
 .divCenterInner{
     display: inline-block;
 }
 
+
+
 @media (min-width: 768px) {
     .sticky-phone-call {
         display: none;
     }
+
 }
-
-

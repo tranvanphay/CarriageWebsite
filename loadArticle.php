@@ -16,7 +16,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
     <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
-    <title>Vận tải Tấn Thành</title>
+    <title>Taxi tải giá rẻ HCM</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="article/scripts/bootstrap/bootstrap.min.css">
     <!-- IonIcons -->
@@ -245,6 +245,53 @@
 
                 </div>
 
+                <?php
+                $mySQL1 = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                $id1 = $_GET['articleId'];
+                $table1 = 'editor';
+                $result1 = $mySQL1-> query("SELECT * FROM $table1 where $table1.id='".$id1."'") or die($mySQL->error);
+               $data1 = mysqli_fetch_object($result1);
+                echo  '<div>
+                    <a>   Xem thêm:</a>
+                    <div class=" rowDistrictSeo boxDistrictSeo">
+                        <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 1</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 2</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 3</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 4</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 5</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 6</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 7</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 8</a>
+                        </div>
+
+                        <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 9</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 10</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 11</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 12</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Thủ Đức</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Gò Vấp</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Bình Thạnh</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Tân Bình</a>
+                        </div>
+
+                        <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Tân Phú</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Phú Nhuận</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Bình Tân</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Củ Chi</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Hóc Môn</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Bình Chánh</a></br>
+                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Nhà Bè</a></br>
+                            <a href="/DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Cần Giờ</a>
+                        </div>
+
+                    </div>
+                </div>';
+                ?>
+                
+
             </div>
         </div>
     </div>
@@ -257,12 +304,12 @@
                 <div class="widget">
                     <h5 class="widgetheading">Liên lạc với chúng tôi</h5>
                     <address>
-                        <strong>Vận tải Tấn Thành</strong><br>
+                        <strong>Taxi tải giá rẻ HCM</strong><br>
                         2290 QL1A, phường Trung Mỹ Tây<br>
                         quận 12, Thành phố Hồ Chí Minh.
                     </address>
                     <p>
-                        <i class="icon-phone"></i>0779444123 <br>
+                        <i class="icon-phone"></i> 0779444123 <br>
                         <i class="icon-envelope-alt"></i> vantaitanthanh.com@gmail.com
                     </p>
                 </div>
@@ -323,8 +370,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>&copy; Vận tải Tấn Thành All right reserved. By </span><a
-                                    href="http://webthemez.com" target="_blank">vpdev</a>
+                            <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span> All right reserved.
                         </p>
                     </div>
                 </div>
@@ -382,33 +428,33 @@
 <!--sticky footer-->
 <div class="sticky-phone-call">
     <div class="rowCus">
-        <a href="tel:0779444123" class="pps-btn-img">
+        <a href="tel:0779444123">
             <div class="column">
                 <div class="column1">
-                    <div class="phone-ring-img-circle ">
-                        <a href="tel:0779444123" class="pps-btn-img">
-                            <img src="img/icon_call.png" alt="Gọi dt" width="30">
-                        </a>
-                    </div>
 
+                    <div class="phone-ring-img-circle ">
+                        <!--                        <a href="tel:0779444123" class="pps-btn-img">-->
+                        <img src="img/icon_call.png" alt="Gọi dt" width="30">
+                        <!--                        </a>-->
+                    </div>
                 </div>
                 <div class="column2 hotline-text">
-                    <p>077-944-4123</p>
+                    <p class="textWhite">077-944-4123</p>
                 </div>
             </div>
         </a>
 
-        <a href="tel:0967654454" class="pps-btn-img">
+        <a href="tel:0967654454">
             <div class="column">
                 <div class="column1">
                     <div class="phone-ring-img-circle">
-                        <a href="tel:0967654454" class="pps-btn-img">
-                            <img src="img/icon_call.png" alt="Gọi dt" width="30">
-                        </a>
+                        <!--                        <a href="tel:0967654454" class="pps-btn-img">-->
+                        <img src="img/icon_call.png" alt="Gọi dt" width="30">
+                        <!--                        </a>-->
                     </div>
                 </div>
                 <div class="column2 hotline-text">
-                    <p style="margin-left: 10px">096-765-4454</p>
+                    <p style="margin-left: 10px" class="textWhite">096-765-4454</p>
                 </div>
             </div>
         </a>

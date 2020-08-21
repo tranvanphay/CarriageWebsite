@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Vận tải Tấn Thành</title>
+    <title>Taxi tải giá rẻ HCM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content=""/>
     <meta name="author" content="http://webthemez.com"/>
@@ -181,12 +181,12 @@
                     <div class="widget">
                         <h5 class="widgetheading">Liên lạc với chúng tôi</h5>
                         <address>
-                            <strong>Vận tải Tấn Thành</strong><br>
+                            <strong>Taxi tải giá rẻ HCM</strong><br>
                             2290 QL1A, phường Trung Mỹ Tây<br>
                             quận 12, Thành phố Hồ Chí Minh.
                         </address>
                         <p>
-                            <i class="icon-phone"></i>0779444123 <br>
+                            <i class="icon-phone"></i> 0779444123 <br>
                             <i class="icon-envelope-alt"></i> vantaitanthanh.com@gmail.com
                         </p>
                     </div>
@@ -247,8 +247,7 @@
                     <div class="col-lg-6">
                         <div class="copyright">
                             <p>
-                                <span>&copy; Vận tải Tấn Thành All right reserved. By </span><a
-                                    href="http://webthemez.com" target="_blank">vpdev</a>
+                                <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span> All right reserved.
                             </p>
                         </div>
                     </div>
@@ -306,33 +305,33 @@
 <!--sticky footer-->
 <div class="sticky-phone-call">
     <div class="rowCus">
-        <a href="tel:0779444123" class="pps-btn-img">
+        <a href="tel:0779444123">
             <div class="column">
                 <div class="column1">
-                    <div class="phone-ring-img-circle ">
-                        <a href="tel:0779444123" class="pps-btn-img">
-                            <img src="img/icon_call.png" alt="Gọi dt" width="30">
-                        </a>
-                    </div>
 
+                    <div class="phone-ring-img-circle ">
+                        <!--                        <a href="tel:0779444123" class="pps-btn-img">-->
+                        <img src="img/icon_call.png" alt="Gọi dt" width="30">
+                        <!--                        </a>-->
+                    </div>
                 </div>
                 <div class="column2 hotline-text">
-                    <p>077-944-4123</p>
+                    <p class="textWhite">077-944-4123</p>
                 </div>
             </div>
         </a>
 
-        <a href="tel:0967654454" class="pps-btn-img">
+        <a href="tel:0967654454">
             <div class="column">
                 <div class="column1">
                     <div class="phone-ring-img-circle">
-                        <a href="tel:0967654454" class="pps-btn-img">
-                            <img src="img/icon_call.png" alt="Gọi dt" width="30">
-                        </a>
+                        <!--                        <a href="tel:0967654454" class="pps-btn-img">-->
+                        <img src="img/icon_call.png" alt="Gọi dt" width="30">
+                        <!--                        </a>-->
                     </div>
                 </div>
                 <div class="column2 hotline-text">
-                    <p style="margin-left: 10px">096-765-4454</p>
+                    <p style="margin-left: 10px" class="textWhite">096-765-4454</p>
                 </div>
             </div>
         </a>
