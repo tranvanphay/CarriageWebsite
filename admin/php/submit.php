@@ -18,6 +18,7 @@ if(isset($_POST['submit'])){
     $editorContent = $_POST['editor'];
     $type = $_POST["type"];
     $title = $_POST["title"];
+    $summary = $_POST["summary"];
 
     // Check whether the editor content is empty
     if(!empty($editorContent)){
@@ -29,9 +30,9 @@ if(isset($_POST['submit'])){
             $miniImage = $array[count($array)-1];
             $data = str_replace($specialCheck,$specialReplace,htmlspecialchars($editorContent));
             $editorContent = html_entity_decode($data);
-            $insert = $db->query("INSERT INTO editor (type, title, content, view,created, miniImage) VALUES ('".$type."' , '".$title."', '".$editorContent."', $view, NOW(),'".$miniImage."')");
+            $insert = $db->query("INSERT INTO editor (summary,type, title, content, view,created, miniImage) VALUES ('".$summary."' ,'".$type."' , '".$title."', '".$editorContent."', $view, NOW(),'".$miniImage."')");
         }else{
-            $insert = $db->query("INSERT INTO editor (type, title, content, view,created, miniImage) VALUES ('".$type."' , '".$title."', '".$editorContent."', $view, NOW(),'".$miniImage."')");
+            $insert = $db->query("INSERT INTO editor (summary,type, title, content, view,created, miniImage) VALUES ('".$summary."' ,'".$type."' , '".$title."', '".$editorContent."', $view, NOW(),'".$miniImage."')");
         }
         // If database insertion is successful
         if($insert){

@@ -153,38 +153,108 @@
 
                 <div class="line"><div>Những bài viết nổi bật</div></div>
                 <div class="row">
-                    <article class="article related col-md-6 col-sm-6 col-xs-12">
+
+                    <?php
+                    $table1 = 'editor';
+                    $mySQLHM = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQLHM-> connect_error);
+                    $resultHomeMoving = $mySQLHM-> query("SELECT * FROM $table1 where $table1.type='Chuyển nhà trọn gói' AND $table1.view=(SELECT MAX(view) FROM $table1 where $table1.type='Chuyển nhà trọn gói' ) LIMIT 1") or die($mySQLHM->error);
+                    while ($dataHM = mysqli_fetch_object($resultHomeMoving)) {
+                        echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
                         <div class="inner">
                             <figure>
-                                <a href="#">
-                                    <img src="article/images/news/img03.jpg">
+                                <a href="loadArticle.php?articleId='.$dataHM->id.'">
+                                    <img src="admin/uploads/'.$dataHM->miniImage.'">
                                 </a>
                             </figure>
                             <div class="padding">
-                                <h2><a href="#">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
+                                <h2><a href="loadArticle.php?articleId='.$dataHM->id.'">'.$dataHM->title.'</a></h2>
                                 <div class="detail">
-                                    <div class="category"><a href="category.html">Lifestyle</a></div>
-                                    <div class="time">December 26, 2016</div>
+                                    <div class="category"><a href="loadArticle.php?articleId='.$dataHM->id.'">'.$dataHM->type.'</a></div>
+                                    <div class="time">'.$dataHM->created.'</div>
                                 </div>
                             </div>
                         </div>
-                    </article>
-                    <article class="article related col-md-6 col-sm-6 col-xs-12">
+                    </article>';
+                    }
+                    ?>
+
+
+
+                    <?php
+                    $table2 = 'editor';
+                    $mySQLOF = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQLOF-> connect_error);
+                    $resultOF = $mySQLOF-> query("SELECT * FROM $table2 where $table2.type='Chuyển văn phòng trọn gói' AND $table2.view=(SELECT MAX(view) FROM $table2 where $table2.type='Chuyển văn phòng trọn gói' ) LIMIT 1") or die($mySQLOF->error);
+                    while ($dataOF = mysqli_fetch_object($resultOF)) {
+                        echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
                         <div class="inner">
                             <figure>
-                                <a href="#">
-                                    <img src="article/images/news/img08.jpg">
+                                <a href="loadArticle.php?articleId='.$dataOF->id.'">
+                                    <img src="admin/uploads/'.$dataOF->miniImage.'">
                                 </a>
                             </figure>
                             <div class="padding">
-                                <h2><a href="#">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
+                                <h2><a href="loadArticle.php?articleId='.$dataOF->id.'">'.$dataOF->title.'</a></h2>
                                 <div class="detail">
-                                    <div class="category"><a href="category.html">Lifestyle</a></div>
-                                    <div class="time">December 26, 2016</div>
+                                    <div class="category"><a href="loadArticle.php?articleId='.$dataOF->id.'">'.$dataOF->type.'</a></div>
+                                    <div class="time">'.$dataOF->created.'</div>
                                 </div>
                             </div>
                         </div>
-                    </article>
+                    </article>';
+                    }
+                    ?>
+
+
+                    <?php
+                    $table3 = 'editor';
+                    $mySQL3 = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL3-> connect_error);
+                    $result3 = $mySQL3-> query("SELECT * FROM $table3 where $table3.type='Dịch vụ chuyển kho xưởng' AND $table3.view=(SELECT MAX(view) FROM $table3 where $table3.type='Dịch vụ chuyển kho xưởng' ) LIMIT 1") or die($mySQLOF->error);
+                    while ($data3 = mysqli_fetch_object($result3)) {
+                        echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
+                        <div class="inner">
+                            <figure>
+                                <a href="loadArticle.php?articleId='.$data3->id.'">
+                                    <img src="admin/uploads/'.$data3->miniImage.'">
+                                </a>
+                            </figure>
+                            <div class="padding">
+                                <h2><a href="loadArticle.php?articleId='.$data3->id.'">'.$data3->title.'</a></h2>
+                                <div class="detail">
+                                    <div class="category"><a href="loadArticle.php?articleId='.$data3->id.'">'.$data3->type.'</a></div>
+                                    <div class="time">'.$data3->created.'</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>';
+                    }
+                    ?>
+
+
+                    <?php
+                    $table4 = 'editor';
+                    $mySQL4 = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL4-> connect_error);
+                    $result4 = $mySQL4-> query("SELECT * FROM $table4 where $table4.type='Dịch vụ cho thuê xe tải' AND $table4.view=(SELECT MAX(view) FROM $table4 where $table4.type='Dịch vụ cho thuê xe tải' ) LIMIT 1") or die($mySQLOF->error);
+                    while ($data4 = mysqli_fetch_object($result4)) {
+                        echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
+                        <div class="inner">
+                            <figure>
+                                <a href="loadArticle.php?articleId='.$data4->id.'">
+                                    <img src="admin/uploads/'.$data4->miniImage.'">
+                                </a>
+                            </figure>
+                            <div class="padding">
+                                <h2><a href="loadArticle.php?articleId='.$data4->id.'">'.$data4->title.'</a></h2>
+                                <div class="detail">
+                                    <div class="category"><a href="loadArticle.php?articleId='.$data4->id.'">'.$data4->type.'</a></div>
+                                    <div class="time">'.$data4->created.'</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>';
+                    }
+                    ?>
+
+
                 </div>
 
             </div>

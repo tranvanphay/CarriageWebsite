@@ -13,7 +13,7 @@
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/autoScroll/animate.min.css" rel="stylesheet">
     <link href="css/autoScroll/prettyphoto.css" rel="stylesheet">
-<!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -68,40 +68,39 @@
         <div class="container content">
             <div class="container">
                 <div class="tabContainer">
-                <ul class="nav nav-tabs">
-                    <li class="active"><a  href="news.php">Chuyển nhà trọn gói</a></li>
-                    <li><a  href="news1.php">Chuyển văn phòng trọn gói</a></li>
-                    <li><a  href="news2.php">Dịch vụ chuyển kho xưởng</a></li>
-                    <li><a  href="news3.php">Dịch vụ cho thuê xe tải</a></li>
-                </ul>
+                    <ul class="nav nav-tabs">
+                        <li><a  href="news.php">Chuyển nhà trọn gói</a></li>
+                        <li><a  href="news1.php">Chuyển văn phòng trọn gói</a></li>
+                        <li><a  href="news2.php">Dịch vụ chuyển kho xưởng</a></li>
+                        <li class="active"><a  href="news3.php">Dịch vụ cho thuê xe tải</a></li>
+                    </ul>
                 </div>
                 <div class="tab-content">
-                    <div id="home" class="tab-pane fade in active">
-                        <h3>Chuyển nhà trọn gói</h3>
+                    <div href="news3.php" class="tab-pane fade in active">
+                        <h3>Dịch vụ cho thuê xe tải</h3>
                         <main class="mt-5 pt-5">
                             <!--                                        Start tag-->
                             <?php
-                                $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
-                                $table = 'editor';
-                                $result = $mySQL-> query("SELECT COUNT(*) as total FROM $table where $table.type='Chuyển nhà trọn gói'") or die($mySQL->error);
-                                $result_per_page = 5;
-                                $type="chuyenNhaTronGoi";
-                                $total = mysqli_fetch_object($result);
-                                $number_of_result = $total->total;
-                                 $num_of_page = ceil($number_of_result/$result_per_page);
-                                 if(!isset($_GET['page'])){
-                                 $page = 1;
-                                 }else{
-                                 $page = $_GET['page'];
-                                 }
-                                 $this_page_first_result = ($page-1)*$result_per_page;
-                                 $result = $mySQL -> query("SELECT * FROM $table where $table.type='Chuyển nhà trọn gói' LIMIT ".$this_page_first_result. ',' .$result_per_page);
-                                echo  '<div class="container">';
+                            $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                            $table = 'editor';
+                            $result = $mySQL-> query("SELECT COUNT(*) as total FROM $table where $table.type='Dịch vụ cho thuê xe tải'") or die($mySQL->error);
+                            $result_per_page = 5;
+                            $total = mysqli_fetch_object($result);
+                            $number_of_result = $total->total;
+                            $num_of_page = ceil($number_of_result/$result_per_page);
+                            if(!isset($_GET['page'])){
+                                $page = 1;
+                            }else{
+                                $page = $_GET['page'];
+                            }
+                            $this_page_first_result = ($page-1)*$result_per_page;
+                            $result = $mySQL -> query("SELECT * FROM $table where $table.type='Dịch vụ cho thuê xe tải' LIMIT ".$this_page_first_result. ',' .$result_per_page);
+                            echo  '<div class="container">';
 
-                                while ($data = mysqli_fetch_object($result))
-                                {
-                                    echo
-                                '<section class="pt-4">
+                            while ($data = mysqli_fetch_object($result))
+                            {
+                                echo
+                                    '<section class="pt-4">
                                     <hr class="mb-5">
                                    <a href="loadArticle.php?articleId='.$data->id.'">
                                    <div class="row wow fadeIn">
@@ -140,32 +139,32 @@
                                     </a>
                                     <hr class="mb-5">
                                 </section>';
-                                }
-                   echo '<div class="divCenterOuter">
-                   <div id="pagin" class="pagination divCenterInner">';
-                                if($page>1){
-                                    $page_num = $page-1;
-                                    echo '<a href="news.php?page=' . $page_num . '">' . "&laquo;" . '</a> ';
-
-                                }else{
-                                    echo '<a href="#pagin">&laquo;</a>';
-                                }
-                       for ($i=1;$i<=$num_of_page;$i++) {
-                           if($i==$page){
-                               echo '<a class="active" href="news.php?page=' . $i . '&&type='.$type.'">' . $i . '</a> ';
-                           }else{
-                               echo '<a href="news.php?page=' . $i . '">' . $i . '</a> ';
-
-                           }
                             }
-                                if($page<$num_of_page){
-                                    $page_num = $page+1;
-                                    echo '<a href="news.php?page=' . $page_num . '">' . "&raquo;" . '</a> ';
-                                }else {
-                                    echo '<a href="#pagin">&raquo;</a>';
-                                }
+                            echo '<div class="divCenterOuter">
+                   <div id="pagin" class="pagination divCenterInner">';
+                            if($page>1){
+                                $page_num = $page-1;
+                                echo '<a href="news3.php?page=' . $page_num . '">' . "&laquo;" . '</a> ';
 
-                                  echo  '</div> </div> </div>';
+                            }else{
+                                echo '<a href="#pagin">&laquo;</a>';
+                            }
+                            for ($i=1;$i<=$num_of_page;$i++) {
+                                if($i==$page){
+                                    echo '<a class="active" href="news3.php?page=' . $i . '">' . $i . '</a> ';
+                                }else{
+                                    echo '<a href="news3.php?page=' . $i . '">' . $i . '</a> ';
+
+                                }
+                            }
+                            if($page<$num_of_page){
+                                $page_num = $page+1;
+                                echo '<a href="news3.php?page=' . $page_num . '">' . "&raquo;" . '</a> ';
+                            }else {
+                                echo '<a href="#pagin">&raquo;</a>';
+                            }
+
+                            echo  '</div> </div> </div>';
                             ?>
                         </main>
                     </div>
@@ -248,7 +247,7 @@
                         <div class="copyright">
                             <p>
                                 <span>&copy; Vận tải Tấn Thành All right reserved. By </span><a
-                                    href="http://webthemez.com" target="_blank">vpdev</a>
+                                        href="http://webthemez.com" target="_blank">vpdev</a>
                             </p>
                         </div>
                     </div>

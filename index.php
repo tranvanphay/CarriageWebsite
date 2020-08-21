@@ -99,7 +99,7 @@
                 $out_of_city_moving = 'outOfCityMoving.php';
                 ?>
 
-                <div class="col-md-4 md-margin-bottom-40">
+                <div>
                     <img class="img-responsive" src="img/processed.jpeg" alt="">
                     <span> <h2>Giao hàng thành phố Hồ Chí Minh</h2>
                 <p style="height: 150px">Vận tải Tấn Thành cung cấp dịch vụ giao hàng tất cả các địa điểm trên thành phố Hồ Chí Minh. Với 1 mức giá hợp lý cùng với sự chuyên nghiệp trong việc bốc xếp, giao hàng, khách hàng sẽ yên tâm về sự an toàn của hàng hóa khi chọn chúng tôi</p>
@@ -111,7 +111,7 @@
                 </div>
 
                 <a style="color: gray!important;" href="officeMoving.php">
-                <div class="col-md-4 md-margin-bottom-40">
+                <div>
                     <img class="img-responsive" src="img/processed1.jpeg" alt="">
                     <span><h2>Chuyển nhà, chuyển văn phòng trọn gói</h2>
                 <p style="height: 150px">Với dịch vụ thuê xe chuyển nhà,chuyển văn phòng tphcm trọn gói giá rẻ đã và đang ngày càng phát triển nhờ sự tin tưởng và tiêu dùng nhiều trên thị trường của người dân. Không chỉ chuyển đồ đạc, mà còn lắp đặt an toàn tại nhà mới, dịch vụ còn mang đến sự hài lòng ...</p>
@@ -123,13 +123,13 @@
                 </a>
 
                 <a style="color: gray!important;" href="outOfCityMoving.php">
-                <div class="col-md-4 md-margin-bottom-40">
+                <div>
                     <img class="img-responsive" src="img/1596342543982.jpeg" alt="">
                     <span><h2>Giao hàng liên tỉnh</h2>
 					<p style="height: 170px">Dịch Vụ Vận Tải Tấn Thành vận chuyển nội ngoại thành bằng xe tải chuyên nghiệp, uy tín, nhiệt tình, không ngại gần xa, sớm tối, phục vụ 24/24,kể cả ngày lễ, bảo đảm hàng hóa cẩn thận.
 						<br>Vận tải Tấn Thành, niềm tin cho hàng hóa của bạn.</p>
                      <div style="background-color: #e4e4e4">
-                        <input class="btn more" type="button" onclick="location.href='<?php echo $out_of_city_moving.$input; ?>'" value='Xem thêm'>
+                        <input class="btn more" type="button" onclick="location.href='<?php echo $out_of_city_moving; ?>'" value='Xem thêm'>
                      </div>
                     </span>
                 </div>
@@ -430,6 +430,12 @@
 <script src="js/autoScroll/jquery.inview.min.js"></script>
 <script src="js/autoScroll/wow.min.js"></script>
 <script src="js/autoScroll/custom-scripts.js"></script>
+<script>
+    var element = document.getElementById("col4");
+    if(window.innerWidth<768){
+        element.classList.remove("col-md-4");
+    }
+</script>
 
 
 </body>
