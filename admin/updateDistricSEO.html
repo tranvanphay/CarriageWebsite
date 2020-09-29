@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Carriage Admin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Main CSS-->
+    <link href="css/formAddArticle.css" rel="stylesheet" media="all">
+<!--    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">-->
+    <!--      <script src="vendor/jquery/jquery.js"></script>-->
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="css/style.css">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+    <script src="ckeditor/ckeditor.js"></script>
+    <script src="ckeditor/samples/js/sample.js"></script>
+    <link rel="stylesheet" href="ckeditor/samples/css/samples.css">
+    <link rel="stylesheet" href="ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+
+
+</head>
+<body>
+
+<div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+        <div class="custom-menu">
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            </button>
+        </div>
+        <div class="img bg-wrap text-center py-4" style="background-image: url(../img/bg_1.jpg);">
+            <div class="user-logo">
+                <div class="img" style="background-image: url(../img/logo.jpg);"></div>
+                <h3>Tấn Thành</h3>
+            </div>
+        </div>
+        <ul class="list-unstyled components mb-5">
+            <li>
+                <a href="adminHomePage.html"><span class="fa fa-home mr-3"></span> Trang chủ</a>
+            </li>
+            <li>
+                <a href="adminArticleManagement.html"><span class="fa fa-group mr-3"></span> Quản lý bài viết</a>
+            </li>
+            <li class="active">
+                <a href="adminAddArticle.html"><span class="fa fa-plus mr-3"></span> Thêm bài viết</a>
+            </li>
+
+            <li>
+                <a href="#"><span class="fa fa-plus mr-3"></span> Cập nhật bài SEO quận</a>
+            </li>
+
+            <li>
+                <a href="adminSettings.html"><span class="fa fa-cog mr-3"></span> Cài đặt</a>
+            </li>
+            <li>
+                <a href="adminHelp.html"><span class="fa fa-support mr-3"></span> Hỗ trợ</a>
+            </li>
+            <li>
+                <a href="#"><span class="fa fa-sign-out mr-3"></span> Đăng xuất</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5 pt-5" style="margin-left: 20px">
+
+        <main>
+            <div class="adjoined-top">
+                <div class="grid-container">
+                    <div class="content grid-width-100">
+
+                    </div>
+                </div>
+            </div>
+            <div class="adjoined-bottom">
+                <div class="grid-container">
+
+                    <div class="grid-width-100">
+                        <form method="post" action="php/updateDistrictSEO.php">
+                            <input type="text" class ="inputMini" placeholder="Tiêu đề" name="title"/>
+                            <label for="sel1" style="color: black;font-weight: bold">Loại bài viết:</label>
+                                <select name="type" class="form-control" id="sel1">
+                                    <option>Chuyển nhà trọn gói</option>
+                                    <option>Chuyển văn phòng trọn gói</option>
+                                    <option>Dịch vụ chuyển kho xưởng</option>
+                                    <option>Dịch vụ cho thuê xe tải</option>
+                                    <option>Dịch vụ giao hàng thành phố Hồ Chí Minh</option>
+                                </select>
+
+                            <label for="sel2" style="color: black;font-weight: bold;margin-top: 10px">Quận:</label>
+                            <select name="district" class="form-control" id="sel2">
+                                <option>Quận 1</option>
+                                <option>Quận 2</option>
+                                <option>Quận 3</option>
+                                <option>Quận 4</option>
+                                <option>Quận 5</option>
+                                <option>Quận 6</option>
+                                <option>Quận 7</option>
+                                <option>Quận 8</option>
+                                <option>Quận 9</option>
+                                <option>Quận 10</option>
+                                <option>Quận 11</option>
+                                <option>Quận 12</option>
+                                <option>Quận Thủ Đức</option>
+                                <option>Quận Gò Vấp</option>
+                                <option>Quận Bình Thạnh</option>
+                                <option>Quận Tân Bình</option>
+                                <option>Quận Tân Phú</option>
+                                <option>Quận Phú Nhuận</option>
+                                <option>Quận Bình Tân</option>
+                                <option>Huyện Củ Chi</option>
+                                <option>Huyện Hóc Môn</option>
+                                <option>Huyện Bình Chánh</option>
+                                <option>Huyện Nhà Bè</option>
+                                <option>Huyện Cần Giờ</option>
+
+                            </select>
+<!--                            <label style="color: black;font-weight: bold">Tóm tắt:</label>-->
+                            <label style="color: black;font-weight: bold">Nội dung:</label>
+                            <textarea name="editor" id="editor" style ="visibility: visible!important;" rows="10" cols="10">
+                            </textarea>
+                            <input type="submit" class="btn btn-info" style="background-color: #007bff;margin: 10px 0px 0px 0px" name="update" value="Cập nhật">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer-a grid-container">
+            <div class="grid-container">
+                <p class="grid-width-100">
+                    Dịch vụ Vận tải Tấn Thành
+                    <br>
+                    Copyright © 2020 – Design by vpdev. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <script>
+            CKEDITOR.replace('editor',{
+                filebrowserUploadUrl:"ckeditor/ck_upload.php",
+                filebrowserUploadMethod:"form"
+            });
+        </script>
+        <script>
+            tinymce.init({
+                selector: '#editor'
+            });
+        </script>
+
+
+    </div>
+</div>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/popper.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

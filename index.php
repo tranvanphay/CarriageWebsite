@@ -33,7 +33,7 @@
 </head>
 <body>
 <div id="wrapper">
-    <!-- start header -->
+
     <header>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -65,24 +65,12 @@
             <ul class="slides">
                 <li>
                     <img src="img/slides/xe-tai-chuyen-nha.png" alt=""/>
-                    <div class="flex-caption">
-                        <h3>Best Service</h3>
-                        <p>Doloribus omnis minus temporibus perferendis ipsa architecto non.</p>
-                    </div>
                 </li>
                 <li>
                     <img src="img/slides/xe-tai-cho-hang.png" alt=""/>
-                    <div class="flex-caption">
-                        <h3>Quality Assurance</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitincidunt.</p>
-                    </div>
                 </li>
                 <li>
                     <img src="img/slides/don-chuyen-nha-quan-12.png" alt=""/>
-                    <div class="flex-caption">
-                        <h3>Best In Industry</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec.</p>
-                    </div>
                 </li>
             </ul>
         </div>
@@ -102,6 +90,7 @@
                 ?>
 
                 <div class="columnIndex box">
+					<a href = "HCMDelivery.php">
                     <img class="img-responsive" src="img/processed.jpeg" alt="">
                     <span> <h2>Giao hàng thành phố Hồ Chí Minh</h2>
                 <p style="height: 150px">Taxi tải giá rẻ HCM cung cấp dịch vụ giao hàng tất cả các địa điểm trên thành phố Hồ Chí Minh. Với 1 mức giá hợp lý cùng với sự chuyên nghiệp trong việc bốc xếp, giao hàng, khách hàng sẽ yên tâm về sự an toàn của hàng hóa khi chọn chúng tôi</p>
@@ -109,10 +98,11 @@
                         <input class="btn more" type="button" onclick="location.href='<?php echo $hcm_delivery; ?>'" value='Xem thêm'>
                     </div>
                    </span>
-
+					</a>
                 </div>
 
                 <div class="columnIndex box">
+					<a href = "officeMoving.php">
                     <img class="img-responsive" src="img/processed1.jpeg" alt="">
                     <span><h2>Chuyển nhà, chuyển văn phòng trọn gói</h2>
                 <p style="height: 150px">Với dịch vụ thuê xe chuyển nhà,chuyển văn phòng tphcm trọn gói giá rẻ đã và đang ngày càng phát triển nhờ sự tin tưởng và tiêu dùng nhiều trên thị trường của người dân. Không chỉ chuyển đồ đạc, mà còn lắp đặt an toàn tại nhà mới, dịch vụ còn mang đến sự hài lòng ...</p>
@@ -120,9 +110,11 @@
                     <input class="btn more" type="button" onclick="location.href='<?php echo $office_moving; ?>'" value='Xem thêm'>
                     </div>
                     </span>
+					</a>
                 </div>
 
                 <div class="columnIndex box">
+					<a href = "outOfCityMoving.php">
                     <img class="img-responsive" src="img/1596342543982.jpeg" alt="">
                     <span><h2>Giao hàng liên tỉnh</h2>
 					<p style="height: 170px">Taxi tải giá rẻ HCM vận chuyển nội ngoại thành bằng xe tải chuyên nghiệp, uy tín, nhiệt tình, không ngại gần xa, sớm tối, phục vụ 24/24,kể cả ngày lễ, bảo đảm hàng hóa cẩn thận.
@@ -131,6 +123,7 @@
                         <input class="btn more" type="button" onclick="location.href='<?php echo $out_of_city_moving; ?>'" value='Xem thêm'>
                      </div>
                     </span>
+					</a>
                 </div>
 
 
@@ -260,7 +253,7 @@
                         </address>
                         <p>
                             <i class="icon-phone"></i> 0779444123 <br>
-                            <i class="icon-envelope-alt"></i> vantaitanthanh.com@gmail.com
+                            <i class="icon-envelope-alt"></i> taxitaigiarehcm.com@gmail.com
                         </p>
                     </div>
                 </div>
@@ -279,7 +272,7 @@
                                 </div>
                             </a>
                             <br>
-                            <a href="https://www.google.com/search?tbm=isch&q=vpdev.xyz">
+                            <a href="https://www.google.com/search?tbm=isch&q=taxitaigiarehcm.com">
                                 <div class="iconRow">
                                     <div class="iconCol">
                                         <li><img class="icon"
@@ -320,7 +313,7 @@
                     <div class="col-lg-6">
                         <div class="copyright">
                             <p>
-                                <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span> All right reserved.
+                                <a href= "#" <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span> </a> All right reserved.
                             </p>
                         </div>
                     </div>

@@ -13,8 +13,8 @@
     <!-- Shareable -->
     <meta property="og:title" content="Dịch vụ giao hàng Hồ Chí Minh" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://vpdev.xyz/HCMDelivery.php" />
-    <meta property="og:image" content="http://vpdev.xyz/img/processed.jpeg" />
+    <meta property="og:url" content="http://taxitaigiarehcm.com/HCMDelivery.php" />
+    <meta property="og:image" content="http://taxitaigiarehcm.com/img/processed.jpeg" />
 <!--    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />-->
     <title>Taxi tải giá rẻ HCM</title>
     <!-- Bootstrap -->
@@ -148,7 +148,7 @@
                     <div class="title"><i class="ion-android-share-alt"></i> Chia sẻ</div>
                     <ul class="social">
                         <li>
-                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://vpdev.xyz/HCMDelivery.php" class="facebook">
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://taxitaigiarehcm.com/HCMDelivery.php" class="facebook">
                                 <i class="ion-social-facebook"></i> Facebook
                             </a>
                         </li>
@@ -177,7 +177,7 @@
 
                     <?php
                     $table1 = 'editor';
-                    $mySQLHM = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQLHM-> connect_error);
+                    $mySQLHM = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQLHM-> connect_error);
                     $resultHomeMoving = $mySQLHM-> query("SELECT * FROM $table1 where $table1.type='Chuyển nhà trọn gói' AND $table1.view=(SELECT MAX(view) FROM $table1 where $table1.type='Chuyển nhà trọn gói' ) LIMIT 1") or die($mySQLHM->error);
                     while ($dataHM = mysqli_fetch_object($resultHomeMoving)) {
                         echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
@@ -203,7 +203,7 @@
 
                     <?php
                     $table2 = 'editor';
-                    $mySQLOF = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQLOF-> connect_error);
+                    $mySQLOF = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQLOF-> connect_error);
                     $resultOF = $mySQLOF-> query("SELECT * FROM $table2 where $table2.type='Chuyển văn phòng trọn gói' AND $table2.view=(SELECT MAX(view) FROM $table2 where $table2.type='Chuyển văn phòng trọn gói' ) LIMIT 1") or die($mySQLOF->error);
                     while ($dataOF = mysqli_fetch_object($resultOF)) {
                         echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
@@ -228,7 +228,7 @@
 
                     <?php
                     $table3 = 'editor';
-                    $mySQL3 = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL3-> connect_error);
+                    $mySQL3 = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQL3-> connect_error);
                     $result3 = $mySQL3-> query("SELECT * FROM $table3 where $table3.type='Dịch vụ chuyển kho xưởng' AND $table3.view=(SELECT MAX(view) FROM $table3 where $table3.type='Dịch vụ chuyển kho xưởng' ) LIMIT 1") or die($mySQLOF->error);
                     while ($data3 = mysqli_fetch_object($result3)) {
                         echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
@@ -253,7 +253,7 @@
 
                     <?php
                     $table4 = 'editor';
-                    $mySQL4 = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL4-> connect_error);
+                    $mySQL4 = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQL4-> connect_error);
                     $result4 = $mySQL4-> query("SELECT * FROM $table4 where $table4.type='Dịch vụ cho thuê xe tải' AND $table4.view=(SELECT MAX(view) FROM $table4 where $table4.type='Dịch vụ cho thuê xe tải' ) LIMIT 1") or die($mySQLOF->error);
                     while ($data4 = mysqli_fetch_object($result4)) {
                         echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
@@ -282,36 +282,36 @@
                     <a>   Xem thêm:</a>
                     <div class=" rowDistrictSeo boxDistrictSeo">
                         <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 1</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 2</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 3</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 4</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 5</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 6</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 7</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 8</a>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=1">Dịch vụ giao hàng quận 1</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=2">Dịch vụ giao hàng quận 2</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=3">Dịch vụ giao hàng quận 3</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=4">Dịch vụ giao hàng quận 4</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=5">Dịch vụ giao hàng quận 5</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=6">Dịch vụ giao hàng quận 6</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=7">Dịch vụ giao hàng quận 7</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=8">Dịch vụ giao hàng quận 8</a>
                         </div>
 
                         <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 9</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 10</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 11</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận 12</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận Thủ Đức</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận Gò Vấp</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận Bình Thạnh</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận Tân Bình</a>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=9">Dịch vụ giao hàng quận 9</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=10">Dịch vụ giao hàng quận 10</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=11">Dịch vụ giao hàng quận 11</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=12">Dịch vụ giao hàng quận 12</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=thuDuc">Dịch vụ giao hàng quận Thủ Đức</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=goVap">Dịch vụ giao hàng quận Gò Vấp</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=binhThanh">Dịch vụ giao hàng quận Bình Thạnh</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=tanBinh">Dịch vụ giao hàng quận Tân Bình</a>
                         </div>
 
                         <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận Tân Phú</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận Phú Nhuận</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng quận Bình Tân</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng huyện Củ Chi</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng huyện Hóc Môn</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng huyện Bình Chánh</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng huyện Nhà Bè</a></br>
-                            <a href="DistrictsSEO/districtOne.php">Dịch vụ giao hàng huyện Cần Giờ</a>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=tanPhu">Dịch vụ giao hàng quận Tân Phú</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=phuNhuan">Dịch vụ giao hàng quận Phú Nhuận</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=binhTan">Dịch vụ giao hàng quận Bình Tân</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=cuChi">Dịch vụ giao hàng huyện Củ Chi</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=hocMon">Dịch vụ giao hàng huyện Hóc Môn</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=binhChanh">Dịch vụ giao hàng huyện Bình Chánh</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=nhaBe">Dịch vụ giao hàng huyện Nhà Bè</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type=hcmDelivery&&district=canGio">Dịch vụ giao hàng huyện Cần Giờ</a>
                         </div>
 
                     </div>
@@ -336,7 +336,7 @@
                     </address>
                     <p>
                         <i class="icon-phone"></i> 0779444123 <br>
-                        <i class="icon-envelope-alt"></i> vantaitanthanh.com@gmail.com
+                        <i class="icon-envelope-alt"></i> taxitaigiarehcm.com@gmail.com
                     </p>
                 </div>
             </div>
@@ -355,7 +355,7 @@
                             </div>
                         </a>
                         <br>
-                        <a href="https://www.google.com/search?tbm=isch&q=vpdev.xyz">
+                        <a href="https://www.google.com/search?tbm=isch&q=taxitaigiarehcm.com">
                             <div class="iconRow">
                                 <div class="iconCol">
                                     <li><img class="icon"

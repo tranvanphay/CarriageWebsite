@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
+-->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CKEditor Sample</title>
+	<script src="../ckeditor.js"></script>
+	<script src="js/sample.js"></script>
+	<link rel="stylesheet" href="css/samples.css">
+	<link rel="stylesheet" href="../../../css/style.css">
+	<link rel="stylesheet" href="toolbarconfigurator/lib/codemirror/neo.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Try the latest sample of CKEditor 4 and learn more about customizing your WYSIWYG editor with endless possibilities.">
+</head>
+<body id="main">
+
+
+<main>
+	<div class="adjoined-top">
+		<div class="grid-container">
+			<div class="content grid-width-100">
+				<h1>Trang đăng bài!</h1>
+
+			</div>
+		</div>
+	</div>
+	<div class="adjoined-bottom">
+		<div class="grid-container">
+			<div class="grid-width-100">
+				<form method="post" action="../../php/submit.php">
+					<input type="text" class ="inputMini" placeholder="Tiêu đề" name="title"/>
+					<label for="sel1" style="color: black;font-weight: bold">Loại bài viết:</label>
+					<select name="type" class="form-control" id="sel1">
+						<option>Chuyển nhà trọn gói</option>
+						<option>Chuyển văn phòng trọn gói</option>
+						<option>Dịch vụ chuyển kho xưởng</option>
+						<option>Dịch vụ cho thuê xe tải</option>
+					</select>
+					<!--                            <label style="color: black;font-weight: bold">Tóm tắt:</label>-->
+					<input type="text" style="margin: 10px 0px 10px 0px" class ="inputMini" placeholder="Tóm tắt" name="summary"/>
+					<label style="color: black;font-weight: bold">Nội dung:</label>
+				<textarea name="editor" id="editor" style ="visibility: visible!important;" rows="10" cols="10">
+                            </textarea>
+					<input type="submit" class="btn btn-info" style="background-color: #007bff;margin: 10px 0px 0px 0px" name="submit" value="Đăng bài">
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+</main>
+
+<footer class="footer-a grid-container">
+	<div class="grid-container">
+		<p class="grid-width-100">
+			Dịch vụ Vận tải Tấn Thành
+			<br>
+			Copyright © 2020 – Design by vpdev. All rights reserved.
+		</p>
+	</div>
+</footer>
+<script>
+	CKEDITOR.replace('editor',{
+		filebrowserUploadUrl:"../ck_upload.php",
+		filebrowserUploadMethod:"form"
+	});
+</script>
+<script>
+	tinymce.init({
+		selector: '#editor'
+	});
+
+</script>
+</body>
+</html>

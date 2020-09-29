@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e80a76ad-c761-4858-aa57-aaceeeca6541" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/taxitaigiarehcm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/addArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/car-care-auto-mobile-html5-bootstrap-web-template.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtBinhChanh.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtBinhTan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtBinhThanh.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtCanGio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtCuChi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtEight.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtElevent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtFive.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtFour.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtGoVap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtHocMon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtNeight.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtNhaBe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtOne.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtPhuNhuan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtSeven.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtSix.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtTanBinh.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtTanPhu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtTen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtThree.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtThuDuc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtTwelve.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistrictsSEO/districtTwo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HCMDelivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/HCMDelivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesArticles/FactoryMovingServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesArticles/FactoryMovingServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesArticles/HomeMovingServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesArticles/HomeMovingServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesArticles/OfficeMovingServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesArticles/OfficeMovingServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicesArticles/TruckRentServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/ServicesArticles/TruckRentServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/adapters/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/adapters/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/build-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/build-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/ck_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/ck_upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/ckeditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/css/samples.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/img/github-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/img/header-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/img/header-separator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/img/navigation-tip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/js/sample.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/js/sf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/js/tinymce.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/lang/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/lang/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/appendto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/assets/inlineall/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/assets/outputxhtml/outputxhtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/assets/posteddata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/assets/sample.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/assets/uilanguages/languages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/datafiltering.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/dialog/assets/my_dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/dialog/dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/divreplace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/enterkey/enterkey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/htmlwriter/assets/outputforflash/outputforflash.fla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/htmlwriter/assets/outputforflash/outputforflash.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/htmlwriter/assets/outputforflash/swfobject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/htmlwriter/outputforflash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/htmlwriter/outputhtml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/inlineall.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/inlinebycode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/inlinetextarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/jquery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/magicline/magicline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/readonly.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/replacebyclass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/replacebycode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/sample.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/sample.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/sample_posteddata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/tabindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/toolbar/toolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/uicolor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/uilanguages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/wysiwygarea/fullpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/old/xhtmlstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/a11yhelp.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/de-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/es-mx.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fo.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/mn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/oc.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/tt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/about/dialogs/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/about/dialogs/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/clipboard/dialogs/paste.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/dialog/dialogDefinition.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/dialog/dialogDefinition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/image/dialogs/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/image/dialogs/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/link/dialogs/anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/link/dialogs/anchor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/link/dialogs/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/link/dialogs/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/pastefromword/filter/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/pastefromword/filter/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/scayt/dialogs/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/scayt/dialogs/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/de-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/en-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/es-mx.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/es-mx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/fr-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/oc.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/oc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sr-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/tt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/specialchar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/table/dialogs/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/table/dialogs/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/tabletools/dialogs/tableCell.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/plugins/wsc/dialogs/wsc_ie.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/CKEditor/plugins/wsc/dialogs/wsc_ie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/css/fontello.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/font/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/font/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/font/fontello.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/font/fontello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/font/fontello.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/font/fontello.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/js/abstracttoolbarmodifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/js/fulltoolbareditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/js/toolbarmodifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/js/toolbartextmodifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/lib/codemirror/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/lib/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/lib/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/lib/codemirror/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/lib/codemirror/neo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/lib/codemirror/show-hint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/CKEditor/toolbarconfigurator/lib/codemirror/show-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adminAddArticle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adminArticleManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adminArticleManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adminHelp.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adminHelp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adminHomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adminHomePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adminManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adminManagement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/adminSettings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/adminSettings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/formAddArticle.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/formAddArticle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/dbConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/dbConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/php/submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/php/submit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/uploads/taxi-tai-gia-re-hcm-dich-vu-cho-thue-xe-tai(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/fonts.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/fonts.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/safari.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/safari.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/safari.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/safari.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/skins/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/skins/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/skins/all.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/skins/all.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/skins/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/skins/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/skins/blue.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/skins/blue.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/skins/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/skins/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/skins/orange.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/skins/orange.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/skins/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/skins/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/skins/purple.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/skins/purple.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/variable.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/variable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/css/variable.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/article/css/variable.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/images/spinner.svg" beforeDir="false" afterPath="$PROJECT_DIR$/article/images/spinner.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/js/e-magz.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/js/e-magz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/js/jquery.migrate.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/js/jquery.migrate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/easescroll/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/easescroll/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/easescroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/easescroll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/easescroll/jquery.easeScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/easescroll/jquery.easeScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/icheck.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/icheck.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/icheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/icheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/flat.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/flat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/flat/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/futurico/futurico.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/futurico/futurico.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/line.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/line.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/line/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/line/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/minimal.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/minimal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/minimal/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/polaris/polaris.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/polaris/polaris.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/_all.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/_all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/aero.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/aero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/green.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/grey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/orange.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/orange.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/pink.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/pink.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/purple.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/purple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/red.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/red.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/square.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/square.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/icheck/skins/square/yellow.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/icheck/skins/square/yellow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/ionicons/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/ionicons/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/ionicons/css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/ionicons/css/ionicons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/ionicons/css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/ionicons/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/jquery-number/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/jquery-number/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/jquery-number/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/jquery-number/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/jquery-number/README.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/jquery-number/README.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/jquery-number/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/jquery-number/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/jquery-number/df-number-format.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/jquery-number/df-number-format.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/jquery-number/jquery.number.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/jquery-number/jquery.number.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/jquery-number/jquery.number.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/jquery-number/jquery.number.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/dist/jquery.magnific-popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/dist/jquery.magnific-popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/dist/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/dist/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/dist/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/dist/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/libs/jquery-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/libs/jquery-loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/libs/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/libs/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/libs/qunit/qunit.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/libs/qunit/qunit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/libs/qunit/qunit.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/libs/qunit/qunit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/magnific-popup.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/magnific-popup.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/css/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/css/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/iframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/iframe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/inline.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/inline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/retina.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/retina.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/src/js/zoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/analytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/build-tool.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/build-tool.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/logo.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/logo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_includes/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/documentation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/site-assets/ajax/test-ajax-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/site-assets/ajax/test-ajax-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/site-assets/ajax/test-ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/site-assets/ajax/test-ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/site-assets/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/site-assets/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/uglify.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/uglify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/zepto.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/zepto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/zepto.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/third-party-libs/zepto.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/magnific-popup/website/wordpress.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/magnific-popup/website/wordpress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.theme.default.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.theme.default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.theme.default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.theme.green.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.theme.green.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.theme.green.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/assets/owl.theme.green.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/owl.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/owl.carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/owlcarousel/dist/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/sweetalert/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/sweetalert/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/sweetalert/dist/sweetalert-dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/sweetalert/dist/sweetalert-dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/sweetalert/dist/sweetalert.css" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/sweetalert/dist/sweetalert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/touchswipe/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/touchswipe/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/touchswipe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/touchswipe/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/touchswipe/jquery.touchSwipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/touchswipe/jquery.touchSwipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/scripts/touchswipe/jquery.touchSwipe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/article/scripts/touchswipe/jquery.touchSwipe.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/autoScroll/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/autoScroll/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/autoScroll/prettyphoto.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/autoScroll/prettyphoto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap/_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/_media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap/utilities/_stretched-link.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/utilities/_stretched-link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom-fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom-fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fancybox/jquery.fancybox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flexslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mdb.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mdb.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mdb.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/blackjack-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/blackjack-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/customicon/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/customicon/icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google8b14ff802298e887.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/index/chuyen-nha-gia-re-hcm.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/index/chuyen-nha-gia-re-hcm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_vehicle.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo_vehicle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/people.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/people.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/don-chuyen-nha-quan-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/slides/don-chuyen-nha-quan-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/xe-tai-cho-hang.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/slides/xe-tai-cho-hang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slides/xe-tai-chuyen-nha.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/slides/xe-tai-chuyen-nha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/animate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/custom-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/html5shiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/jquery.isotope.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/jquery.isotope.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/jquery.prettyphoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/jquery.prettyphoto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/mousescroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/mousescroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/respond.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/smoothscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/smoothscroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoScroll/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoScroll/wow.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/flexslider/jquery.flexslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/flexslider/jquery.flexslider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/flexslider/setting.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/flexslider/setting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/google-code-prettify/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/google-code-prettify/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/google-code-prettify/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/google-code-prettify/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.easing.1.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.fancybox-media.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.fancybox-media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.fancybox.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.fancybox.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.flexslider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/popper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/portfolio/jquery.quicksand.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/portfolio/jquery.quicksand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/portfolio/setting.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/portfolio/setting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/quicksand/jquery.quicksand.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/quicksand/jquery.quicksand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/quicksand/setting.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/quicksand/setting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loadArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/loadArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news1.php" beforeDir="false" afterPath="$PROJECT_DIR$/news1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news2.php" beforeDir="false" afterPath="$PROJECT_DIR$/news2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news3.php" beforeDir="false" afterPath="$PROJECT_DIR$/news3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/officeMoving.php" beforeDir="false" afterPath="$PROJECT_DIR$/officeMoving.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outOfCityMoving.php" beforeDir="false" afterPath="$PROJECT_DIR$/outOfCityMoving.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/isLogedIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/isLogedIn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_code.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bootstrap/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gY8nhNjomh2rJmSJZ1W5ciEqtn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/ckeditor" />
+      <recent name="$PROJECT_DIR$/admin" />
+      <recent name="$PROJECT_DIR$/ckeditor/samples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/ckeditor/samples" />
+      <recent name="$PROJECT_DIR$/admin" />
+      <recent name="$PROJECT_DIR$/ckeditor" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e80a76ad-c761-4858-aa57-aaceeeca6541" name="Default Changelist" comment="" />
+      <created>1598280333971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598280333971</updated>
+      <workItem from="1598280337364" duration="3417000" />
+      <workItem from="1598283773746" duration="4936000" />
+      <workItem from="1598295055414" duration="31000" />
+      <workItem from="1598759060369" duration="1099000" />
+      <workItem from="1599569821400" duration="2400000" />
+      <workItem from="1601383519599" duration="297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="666" y="154" width="588" height="723" key="find.popup" timestamp="1598759723424">
+      <screen x="0" y="23" width="1920" height="984" />
+    </state>
+    <state x="666" y="154" width="588" height="723" key="find.popup/0.23.1920.984@0.23.1920.984" timestamp="1598759723424" />
+    <state x="666" y="155" width="588" height="729" key="find.popup/0.23.1920.993@0.23.1920.993" timestamp="1598287530356" />
+  </component>
+</project>

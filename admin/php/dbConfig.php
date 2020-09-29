@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-$dbHost     = "localhost";
-$dbUsername = "id14351042_phaytran";
-$dbPassword = "|4-R)F>ix0nf3V8S";
-$dbName     = "id14351042_vantaitanthanh";
+$dbHost     = "localhost:3306";
+$dbUsername = "tax55389_phay.tran99";
+$dbPassword = "Phaytran#1@@";
+$dbName     = "tax55389_taxitaigiarehcm";
 
 // Create database connection
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);

@@ -12,10 +12,22 @@
         , Xe tải chở hàng quận 9, Xe tải chở hàng quận 10, Xe tải chở hàng quận 11, Xe tải chở hàng quận 12, Xe tải chở hàng quận Thủ Đức, Xe tải chở hàng quận Gò Vấp, Xe tải chở hàng quận Bình Thạnh
      , Xe tải chở hàng quận Tân Bình, Xe tải chở hàng quận Tân Phú, Xe tải chở hàng quận Phú Nhuận, Xe tải chở hàng quận Bình Tân, Xe tải chở hàng Củ Chi, Xe tải chở hàng Hóc Môn
     , Xe tải chở hàng Bình Chánh, Xe tải chở hàng Nhà Bè, Xe tải chở hàng Cần Giờ, Taxi tải giá rẻ Hồ Chí Minh, Thuê xe liên tỉnh Hồ Chí Minh, Thuê xe chở hàng, Dịch vụ vận tải giá rẻ">    <!-- Shareable -->
-    <meta property="og:title" content="" />
+   <?php
+    $mySQL = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQL-> connect_error);
+    $id = $_GET['articleId'];
+    $table = 'editor';
+    $updateView = "UPDATE editor SET `view`=`view`+1 WHERE id='".$id."'";
+    $isSuccess = $mySQL->query($updateView);
+    $result = $mySQL-> query("SELECT * FROM $table where $table.id='".$id."'") or die($mySQL->error);
+    while ($data = mysqli_fetch_object($result)) {
+        echo '<meta property="og:title" content="'.$data->title.'" />
+                <meta property="og:image" content="http://taxitaigiarehcm.com/admin/uploads/'.$data->miniImage.'" />
+                <meta property="og:url" content="http://taxitaigiarehcm.com/loadArticle.php?articleId='.$_GET["articleId"].'" />
+                ';
+    }
+    mysqli_close($mySQL);
+    ?>
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
     <title>Taxi tải giá rẻ HCM</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="article/scripts/bootstrap/bootstrap.min.css">
@@ -85,7 +97,7 @@
             <div style="align-content: center; margin: 0px 10px 0px 10px">
                 <article class="article main-article">
                     <?php
-                    $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                    $mySQL = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQL-> connect_error);
                     $id = $_GET['articleId'];
                     $table = 'editor';
                     $updateView = "UPDATE editor SET `view`=`view`+1 WHERE id='".$id."'";
@@ -111,9 +123,13 @@
                     <div class="title"><i class="ion-android-share-alt"></i> Chia sẻ</div>
                     <ul class="social">
                         <li>
-                            <a href="#" class="facebook">
+                            <?php
+                            $articleID = $_GET['articleId'];
+                           echo' <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://taxitaigiarehcm.com/loadArticle.php?articleId='.$articleID.'" 
+                                    class="facebook">
                                 <i class="ion-social-facebook"></i> Facebook
-                            </a>
+                            </a>';
+                            ?>
                         </li>
                         <li>
                             <a href="#" class="twitter">
@@ -144,7 +160,7 @@
 
                     <?php
                     $table1 = 'editor';
-                    $mySQLHM = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQLHM-> connect_error);
+                    $mySQLHM = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQLHM-> connect_error);
                     $resultHomeMoving = $mySQLHM-> query("SELECT * FROM $table1 where $table1.type='Chuyển nhà trọn gói' AND $table1.view=(SELECT MAX(view) FROM $table1 where $table1.type='Chuyển nhà trọn gói' ) LIMIT 1") or die($mySQLHM->error);
                     while ($dataHM = mysqli_fetch_object($resultHomeMoving)) {
                        echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
@@ -170,7 +186,7 @@
 
                     <?php
                     $table2 = 'editor';
-                    $mySQLOF = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQLOF-> connect_error);
+                    $mySQLOF = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQLOF-> connect_error);
                     $resultOF = $mySQLOF-> query("SELECT * FROM $table2 where $table2.type='Chuyển văn phòng trọn gói' AND $table2.view=(SELECT MAX(view) FROM $table2 where $table2.type='Chuyển văn phòng trọn gói' ) LIMIT 1") or die($mySQLOF->error);
                     while ($dataOF = mysqli_fetch_object($resultOF)) {
                         echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
@@ -195,7 +211,7 @@
 
                     <?php
                     $table3 = 'editor';
-                    $mySQL3 = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL3-> connect_error);
+                    $mySQL3 = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQL3-> connect_error);
                     $result3 = $mySQL3-> query("SELECT * FROM $table3 where $table3.type='Dịch vụ chuyển kho xưởng' AND $table3.view=(SELECT MAX(view) FROM $table3 where $table3.type='Dịch vụ chuyển kho xưởng' ) LIMIT 1") or die($mySQLOF->error);
                     while ($data3 = mysqli_fetch_object($result3)) {
                         echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
@@ -220,7 +236,7 @@
 
                     <?php
                     $table4 = 'editor';
-                    $mySQL4 = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL4-> connect_error);
+                    $mySQL4 = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQL4-> connect_error);
                     $result4 = $mySQL4-> query("SELECT * FROM $table4 where $table4.type='Dịch vụ cho thuê xe tải' AND $table4.view=(SELECT MAX(view) FROM $table4 where $table4.type='Dịch vụ cho thuê xe tải' ) LIMIT 1") or die($mySQLOF->error);
                     while ($data4 = mysqli_fetch_object($result4)) {
                         echo '<article class="article related col-md-6 col-sm-6 col-xs-12">
@@ -246,45 +262,55 @@
                 </div>
 
                 <?php
-                $mySQL1 = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                $mySQL1 = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQL-> connect_error);
                 $id1 = $_GET['articleId'];
                 $table1 = 'editor';
                 $result1 = $mySQL1-> query("SELECT * FROM $table1 where $table1.id='".$id1."'") or die($mySQL->error);
                $data1 = mysqli_fetch_object($result1);
+                $typeCode = "null";
+                if($data1->type == "Chuyển nhà trọn gói"){
+                    $typeCode = "movingHome";
+                }else if($data1->type == "Chuyển văn phòng tron gói"){
+                    $typeCode = "officeMoving";
+                }else if($data1->type == "Dịch vụ chuyển kho xưởng"){
+                    $typeCode = "factoryMoving";
+                }else if($data1->type == "Dịch vụ cho thuê xe tải"){
+                    $typeCode = "truckRent";
+                }
                 echo  '<div>
                     <a>   Xem thêm:</a>
                     <div class=" rowDistrictSeo boxDistrictSeo">
                         <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 1</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 2</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 3</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 4</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 5</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 6</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 7</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 8</a>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=1">'.$data1->type. ' quận 1</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=2">'.$data1->type. ' quận 2</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=3">'.$data1->type. ' quận 3</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=4">'.$data1->type. ' quận 4</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=5">'.$data1->type. ' quận 5</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=6">'.$data1->type. ' quận 6</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=7">'.$data1->type. ' quận 7</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=8">'.$data1->type. ' quận 8</a>
                         </div>
 
                         <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 9</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 10</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 11</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận 12</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Thủ Đức</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Gò Vấp</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Bình Thạnh</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Tân Bình</a>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=9">'.$data1->type. ' quận 9</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=10">'.$data1->type. ' quận 10</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=11">'.$data1->type. ' quận 11</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=12">'.$data1->type. ' quận 12</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=thuDuc">'.$data1->type. ' quận Thủ Đức</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=goVap">'.$data1->type. ' quận Gò Vấp</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=binhThanh">'.$data1->type. ' quận Bình Thạnh</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=tanBinh">'.$data1->type. ' quận Tân Bình</a>
                         </div>
 
                         <div class="columnDistrictSeo boxDistrictSeo" style="margin-left: 10px;margin-top: 10px;color: #1c71ff">
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Tân Phú</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Phú Nhuận</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' quận Bình Tân</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Củ Chi</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Hóc Môn</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Bình Chánh</a></br>
-                            <a href="DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Nhà Bè</a></br>
-                            <a href="/DistrictsSEO/districtOne.php">'.$data1->type. ' huyện Cần Giờ</a>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=tanPhu">'.$data1->type. ' quận Tân Phú</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=phuNhuan">'.$data1->type. ' quận Phú Nhuận</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=binhTan">'.$data1->type. ' quận Bình Tân</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=cuChi">'.$data1->type. ' huyện Củ Chi</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=hocMon">'.$data1->type. ' huyện Hóc Môn</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=binhChanh">'.$data1->type. ' huyện Bình Chánh</a></br>
+                            <a href="DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=nhaBe">'.$data1->type. ' huyện Nhà Bè</a></br>
+                            <a href="/DistrictsSEO/districtSEO.php?type='.$typeCode.'&&district=canGio">'.$data1->type. ' huyện Cần Giờ</a>
                         </div>
 
                     </div>
@@ -310,7 +336,7 @@
                     </address>
                     <p>
                         <i class="icon-phone"></i> 0779444123 <br>
-                        <i class="icon-envelope-alt"></i> vantaitanthanh.com@gmail.com
+                        <i class="icon-envelope-alt"></i> taxitaigiarehcm.com@gmail.com
                     </p>
                 </div>
             </div>
@@ -329,7 +355,7 @@
                             </div>
                         </a>
                         <br>
-                        <a href="https://www.google.com/search?tbm=isch&q=vpdev.xyz">
+                        <a href="https://www.google.com/search?tbm=isch&q=taxitaigiarehcm.com">
                             <div class="iconRow">
                                 <div class="iconCol">
                                     <li><img class="icon"
@@ -370,7 +396,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span> All right reserved.
+                            <a href="http://taxitaigiarehcm.com" <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span></a> All right reserved.
                         </p>
                     </div>
                 </div>

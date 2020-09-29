@@ -1,10 +1,10 @@
 <?php
-$servername = "localhost";
-$username = "id14351042_phaytran";
-$password = "|4-R)F>ix0nf3V8S";
+$servername = "localhost:3306";
+$username = "tax55389_phay.tran99";
+$password = "Phaytran#1@@";
 $accountName = $_POST["username"];
 $accountPassword = $_POST["password"];
-$dbName = "id14351042_vantaitanthanh";
+$dbName = "tax55389_taxitaigiarehcm";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbName);

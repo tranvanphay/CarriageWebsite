@@ -2269,6 +2269,15 @@ article img.pull-right, article .align-right {
     z-index: 10000;
 }
 
+.stickyIndex {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    z-index: 10000;
+}
+
 .hotline-text {
     font-size: 10pt;
 }
@@ -2564,6 +2573,9 @@ article img.pull-right, article .align-right {
 
 @media (min-width: 768px) {
     .sticky-phone-call {
+        display: none;
+    }
+	.stickyIndex {
         display: none;
     }
 

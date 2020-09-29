@@ -31,6 +31,7 @@
 <div id="wrapper">
 
     <!-- start header -->
+
     <header>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -81,7 +82,7 @@
                         <main class="mt-5 pt-5">
                             <!--                                        Start tag-->
                             <?php
-                            $mySQL = new mysqli("localhost","id14351042_phaytran","|4-R)F>ix0nf3V8S","id14351042_vantaitanthanh") or die ($mySQL-> connect_error);
+                            $mySQL = new mysqli("localhost:3306","tax55389_phay.tran99","Phaytran#1@@","tax55389_taxitaigiarehcm") or die ($mySQL-> connect_error);
                             $table = 'editor';
                             $result = $mySQL-> query("SELECT COUNT(*) as total FROM $table where $table.type='Dịch vụ cho thuê xe tải'") or die($mySQL->error);
                             $result_per_page = 5;
@@ -186,7 +187,7 @@
                         </address>
                         <p>
                             <i class="icon-phone"></i> 0779444123 <br>
-                            <i class="icon-envelope-alt"></i> vantaitanthanh.com@gmail.com
+                            <i class="icon-envelope-alt"></i> taxitaigiarehcm.com@gmail.com
                         </p>
                     </div>
                 </div>
@@ -205,7 +206,7 @@
                                 </div>
                             </a>
                             <br>
-                            <a href="https://www.google.com/search?tbm=isch&q=vpdev.xyz">
+                            <a href="https://www.google.com/search?tbm=isch&q=taxitaigiarehcm.com">
                                 <div class="iconRow">
                                     <div class="iconCol">
                                         <li><img class="icon"
@@ -246,7 +247,7 @@
                     <div class="col-lg-6">
                         <div class="copyright">
                             <p>
-                                <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span> All right reserved.
+                            <a href="http://taxitaigiarehcm.com">Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span></a> All right reserved.
                             </p>
                         </div>
                     </div>
