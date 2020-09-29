@@ -396,7 +396,7 @@
                 <div class="col-lg-6">
                     <div class="copyright">
                         <p>
-                            <a href="http://taxitaigiarehcm.com" <span>Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span></a> All right reserved.
+                            <a href="http://taxitaigiarehcm.com">Copyright &copy; 2020 <span class="nameWeb">Taxi tải giá rẻ HCM</span></a> All right reserved.
                         </p>
                     </div>
                 </div>

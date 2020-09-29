@@ -132,13 +132,24 @@
                  <div class="sharing">
                     <div class="title"><i class="ion-android-share-alt"></i> Chia sẻ</div>
                     <ul class="social">
+                      <!--  <li>
+                            <?php
+/*                            $type = $_GET["type"];
+                            $districtCode = $_GET["district"];
+                            echo '<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://taxitaigiarehcm.com/DistrictsSEO/districtSEO.php?type='.$type.'&&'.$districtCode.'" class="facebook">';*/?>
+                                <i class="ion-social-facebook"></i> Facebook
+                            </a>
+                        </li>-->
+
                         <li>
                             <?php
                             $type = $_GET["type"];
                             $districtCode = $_GET["district"];
-                            echo '<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://taxitaigiarehcm.com/DistrictsSEO/districtSEO.php?type='.$type.'&&'.$districtCode.'" class="facebook">';?>
+                            echo' <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://taxitaigiarehcm.com/DistrictsSEO/districtSEO.php?type='.$type.'&&'.$districtCode.'" 
+                                    class="facebook">
                                 <i class="ion-social-facebook"></i> Facebook
-                            </a>
+                            </a>';
+                            ?>
                         </li>
 
                         <li>
